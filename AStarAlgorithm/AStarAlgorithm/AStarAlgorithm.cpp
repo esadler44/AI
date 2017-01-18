@@ -34,7 +34,7 @@ int main()
 	double cheapestSuccessor = 0.0f;
 
 	ifstream testFile;
-	testFile.open("C:\\Users\\Elliot\\Documents\\4B Term\\CS 486\\A1\\randTSP\\problem36.txt");
+	testFile.open("C:\\Users\\Elliot\\Documents\\4B Term\\CS 486\\A1\\randTSP\\9\\instance_1.txt");
 
 	int lines;
 	testFile >> lines;

@@ -27,8 +27,8 @@ public:
 		double lhsPriority = lhs->getPriority();
 		double rhsPriority = rhs->getPriority();
 		if (lhsPriority == rhsPriority) {
-			return lhs->getID() < rhs->getID();
+			return lhs->getID() > rhs->getID();
 		}
-		return lhs->getPriority() < rhs->getPriority();
+		return lhs->getPriority() > rhs->getPriority();
 	}
 };
