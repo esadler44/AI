@@ -4,10 +4,10 @@
 #include "stdafx.h"
 #include "ConstrainedCell.h"
 
+#include <algorithm>
 #include <fstream>
 #include <iostream>
 #include <string>
-#include <queue>
 
 using namespace std;
 
@@ -45,7 +45,7 @@ int solveProblem(string filePath)
 	testFile.open(filePath);
 
 	vector<ConstrainedCell*> givenCells;
-	priority_queue<ConstrainedCell*, vector<ConstrainedCell*>, ConstrainedCellPriorityCompare> needAssigning;
+	vector<ConstrainedCell*> needAssigning;
 
 	// Create grid
 	int num;
@@ -56,7 +56,7 @@ int solveProblem(string filePath)
 			ConstrainedCell* cell = new ConstrainedCell(i, j, num);
 			cells[i][j] = cell;
 			if (num == 0) {
-				needAssigning.push(cell);
+				needAssigning.push_back(cell);
 			}
 			else {
 				givenCells.push_back(cell);
@@ -125,8 +125,14 @@ int solveProblem(string filePath)
 				}
 				//cout << endl;
 			}
-			ConstrainedCell* cell = needAssigning.top();
-			needAssigning.pop();
+			// Get cell with highest priority
+			ConstrainedCell* cell = needAssigning.back();
+			for (ConstrainedCell* possibleCell : needAssigning) {
+				if (possibleCell->getPriority() >= cell->getPriority()) {
+					cell = possibleCell;
+				}
+			}
+			needAssigning.erase(remove(needAssigning.begin(), needAssigning.end(), cell), needAssigning.end());
 			//cout << "Top Cell: (row:" << cell->getRow() << ", col:" << cell->getCol() << ")" << endl;
 			bool assigned = cell->assignCell();
 			if (assigned) {
@@ -141,7 +147,7 @@ int solveProblem(string filePath)
 				}
 				else {
 					cell->resetCellAssignment();
-					needAssigning.push(cell);
+					needAssigning.push_back(cell);
 					cell = attemptedAssignments.back();
 					//cout << "Reassigning Cell: (row:" << cell->getRow() << ", col:" << cell->getCol() << ")" << endl;
 					attemptedAssignments.pop_back();
@@ -177,8 +183,6 @@ int solveProblem(string filePath)
 	}
 
 	// Results
-	//cout << "PRESS ANY KEY TO QUIT" << endl;
-	//cin.get();
 	if (impossible) {
 		return -1;
 	} else {

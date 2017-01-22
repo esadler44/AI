@@ -31,13 +31,3 @@ public:
 	int getValue() const;
 	int getPriority() const;
 };
-
-class ConstrainedCellPriorityCompare {
-public:
-	bool operator() (const ConstrainedCell* lhs, const ConstrainedCell* rhs) const {
-		int lhsPriority = lhs->getPriority();
-		int rhsPriority = rhs->getPriority();
-		return lhsPriority < rhsPriority;
-	}
-};
-
