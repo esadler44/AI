@@ -1,19 +1,19 @@
 #pragma once
-#include <vector>
+#include <list>
 
 class ConstrainedCell {
 public:
 	static int totalCellAssignments;
 private:
-	static std::vector<int> domain;
+	static std::list<int> domain;
 
 	int row, col;
 	int currentValue;
 	bool readOnly;
-	std::vector<ConstrainedCell*> neighbours;
-	std::vector<int> restrictedAssignments;
-	std::vector<int> previouslyTriedAssignments;
-	std::vector<int> remainingValidAssignments;
+	std::list<ConstrainedCell*> neighbours;
+	std::list<int> restrictedAssignments;
+	std::list<int> previouslyTriedAssignments;
+	std::list<int> remainingValidAssignments;
 
 	bool isValidValue(int value);
 

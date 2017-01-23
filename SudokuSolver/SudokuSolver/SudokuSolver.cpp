@@ -11,7 +11,7 @@
 
 using namespace std;
 
-vector<int> ConstrainedCell::domain = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+list<int> ConstrainedCell::domain = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
 int ConstrainedCell::totalCellAssignments = 0;
 
 int solveProblem(string filePath);
@@ -44,8 +44,8 @@ int solveProblem(string filePath)
 	ifstream testFile;
 	testFile.open(filePath);
 
-	vector<ConstrainedCell*> givenCells;
-	vector<ConstrainedCell*> needAssigning;
+	list<ConstrainedCell*> givenCells;
+	list<ConstrainedCell*> needAssigning;
 
 	// Create grid
 	int num;
@@ -110,8 +110,8 @@ int solveProblem(string filePath)
 
 	// Assign remaining cells
 	if (!impossible) {
-		vector<ConstrainedCell*> attemptedAssignments;
-		vector<ConstrainedCell*> resetCells;
+		list<ConstrainedCell*> attemptedAssignments;
+		list<ConstrainedCell*> resetCells;
 		while (!needAssigning.empty()) {
 			if (ConstrainedCell::totalCellAssignments > 10000) {
 				break;
@@ -132,7 +132,7 @@ int solveProblem(string filePath)
 					cell = possibleCell;
 				}
 			}
-			needAssigning.erase(remove(needAssigning.begin(), needAssigning.end(), cell), needAssigning.end());
+			needAssigning.remove(cell);
 			//cout << "Top Cell: (row:" << cell->getRow() << ", col:" << cell->getCol() << ")" << endl;
 			bool assigned = cell->assignCell();
 			if (assigned) {

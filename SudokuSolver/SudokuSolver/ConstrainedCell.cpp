@@ -46,7 +46,9 @@ bool ConstrainedCell::isReadOnly()
 }
 
 void ConstrainedCell::addNeighbour(ConstrainedCell* neighbour) {
-	neighbours.push_back(neighbour);
+	if (find(neighbours.begin(), neighbours.end(), neighbour) == neighbours.end()) {
+		neighbours.push_back(neighbour);
+	}
 }
 
 bool ConstrainedCell::assignCell() {
@@ -62,7 +64,7 @@ bool ConstrainedCell::assignCell() {
 		}
 	}
 	if (foundValidAssignment) {
-		remainingValidAssignments.erase(remove(remainingValidAssignments.begin(), remainingValidAssignments.end(), currentValue), remainingValidAssignments.end());
+		remainingValidAssignments.remove(currentValue);
 		previouslyTriedAssignments.push_back(currentValue);
 	}
 	return foundValidAssignment;
