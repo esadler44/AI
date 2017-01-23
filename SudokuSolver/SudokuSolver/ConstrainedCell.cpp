@@ -10,6 +10,7 @@ using namespace std;
 
 bool ConstrainedCell::isValidValue(int value) {
 	bool result = noNeighbourHas(value);
+	// Comment out for pure backtracking
 	result &= isCoolWithNeighbours(value);
 	return result;
 }
@@ -115,10 +116,12 @@ void ConstrainedCell::addNeighbour(ConstrainedCell* neighbour) {
 
 bool ConstrainedCell::assignCell() {
 	bool foundValidAssignment = false;
+	// Comment out for pure backtracking
 	notifyNeighboursOfGivingUp(currentValue);
 	for (int value : remainingValidAssignments) {
 		if (isValidValue(value)) {
 			currentValue = value;
+			// Comment out for pure backtracking
 			takeFromNeighbours(value);
 			if (!readOnly) {
 				totalCellAssignments++;
@@ -137,7 +140,10 @@ bool ConstrainedCell::assignCell() {
 void ConstrainedCell::resetCellAssignment() {
 	// Reset previously tried values since a higher up change may require that we try old values again
 	if (!readOnly) {
+		// Comment out for pure backtracking
 		notifyNeighboursOfGivingUp(currentValue);
+		// Comment in for pure backtracking
+		//currentValue = 0;
 		while (!previouslyTriedAssignments.empty()) {
 			remainingValidAssignments.push_back(previouslyTriedAssignments.back());
 			previouslyTriedAssignments.pop_back();
