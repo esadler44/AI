@@ -4,7 +4,6 @@
 #include "stdafx.h"
 #include "ConstrainedCell.h"
 
-#include <algorithm>
 #include <fstream>
 #include <iostream>
 #include <string>
@@ -18,7 +17,8 @@ int solveProblem(string filePath);
 
 int main() {
 	ofstream outputFile;
-	outputFile.open("backtrackResults.txt");
+	outputFile.open("backtrackWFwdResults.txt");
+	outputFile << "Empty Cells, BacktrackFW Assignments" << endl;
 	for (int i = 71; i >= 1; i--) {
 		cout << "Problem: " << i << endl;
 		outputFile << i;
@@ -27,12 +27,16 @@ int main() {
 			string file = "C:\\Users\\Elliot\\Documents\\4B Term\\CS 486\\A1\\problems\\" + to_string(i) + "\\" + to_string(j) + ".sd";
 			int result = solveProblem(file);
 			if (result < 0) {
-				cout << "IMPOSSIBLE" << endl;
+				cout << "FOLDER " << i << ", RUN " << j << " IMPOSSIBLE!!!" << endl;
 			} else {
 				average += result / 10.0f;
 			}
+			//cout << result << endl;
+			//cin.get();
 		}
+		cout << "Avg: " << average << endl;
 		outputFile << ", " << average << endl;
+		//cin.get();
 	}
 	outputFile.close();
 }
@@ -138,7 +142,7 @@ int solveProblem(string filePath)
 			if (assigned) {
 				attemptedAssignments.push_back(cell);
 			}
-			// Reverse back up through previous assignments until we can redo one or we get to the root
+			// Reverse back up through previous assignments until we can re-assign one or we get to the root of the assignment tree
 			while (!assigned) {
 				//cout << "Unassigned" << endl;
 				if (attemptedAssignments.empty()) {
@@ -160,6 +164,7 @@ int solveProblem(string filePath)
 					}
 				}
 			}
+			//cin.get();
 		}
 	}
 
