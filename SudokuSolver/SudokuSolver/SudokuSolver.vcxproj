@@ -143,6 +143,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <Text Include="backtrackResults.txt" />
+    <Text Include="backtrackWFwdHeuristicsResults.txt" />
     <Text Include="backtrackWFwdResults.txt" />
     <Text Include="ReadMe.txt" />
   </ItemGroup>

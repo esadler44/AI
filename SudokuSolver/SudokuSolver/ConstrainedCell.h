@@ -23,6 +23,9 @@ private:
 	void notifyNeighboursOfGivingUp(int value);
 	void neighbourGaveUp(int value);
 
+	int totalConstrainedNeighboursWhenTaken(int value);
+	bool willNeighbourConstrainWith(int value);
+
 public:
 	ConstrainedCell(int row, int col, int value);
 

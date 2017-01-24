@@ -18,6 +18,7 @@
     <Text Include="ReadMe.txt" />
     <Text Include="backtrackResults.txt" />
     <Text Include="backtrackWFwdResults.txt" />
+    <Text Include="backtrackWFwdHeuristicsResults.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">

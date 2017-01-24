@@ -17,8 +17,8 @@ int solveProblem(string filePath);
 
 int main() {
 	ofstream outputFile;
-	outputFile.open("backtrackWFwdResults.txt");
-	outputFile << "Empty Cells, BacktrackFW Assignments" << endl;
+	outputFile.open("backtrackWFwdHeuristicsResults.txt");
+	outputFile << "Empty Cells, BacktrackFWHeuristics Assignments 2" << endl;
 	for (int i = 71; i >= 1; i--) {
 		cout << "Problem: " << i << endl;
 		outputFile << i;
