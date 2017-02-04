@@ -24,8 +24,7 @@ double successorCost(StateData a, StateData b) {
 	return sqrt(pow(a.x - b.x, 2.0) + pow(a.y - b.y, 2.0));
 }
 
-int main()
-{
+int solveProblem(int i, int j) {
 	vector<string> stateIDs;
 	unordered_map<string, StateData> stateDataMap;
 	StateData originStateData;
@@ -34,7 +33,7 @@ int main()
 	double cheapestSuccessor = 0.0f;
 
 	ifstream testFile;
-	testFile.open("C:\\Users\\Elliot\\Documents\\4B Term\\CS 486\\A1\\randTSP\\9\\instance_1.txt");
+	testFile.open("C:\\Users\\Elliot\\Documents\\4B Term\\CS 486\\A1\\randTSP\\" + to_string(i) + "\\instance_" + to_string(j) + ".txt");
 
 	int lines;
 	testFile >> lines;
@@ -61,7 +60,7 @@ int main()
 	}
 	if (numStates > 1) {
 		cheapestSuccessor = successorCost(originStateData, neighbourStateData);
-		
+
 		for (unordered_map<string, StateData>::iterator it = stateDataMap.begin(); it != stateDataMap.end(); it++) {
 			for (unordered_map<string, StateData>::iterator itt = stateDataMap.begin(); itt != stateDataMap.end(); itt++) {
 				if (it->first == itt->first) {
@@ -80,7 +79,7 @@ int main()
 	vector<string> empty;
 	Node* firstNode = new Node(originStateData.id, 0.0f, numStates * cheapestSuccessor, empty);
 	generatedNodes++;
-	
+
 	priority_queue<Node*, vector<Node*>, NodePriorityCompare> priorityQueue;
 	priorityQueue.push(firstNode);
 
@@ -120,18 +119,30 @@ int main()
 	cout << "Clock Time: " << clock() << endl;
 	cout << "Generated Nodes: " << generatedNodes << endl;
 
-	cout << "Path: ";
+	//cout << "Path: ";
 	vector<string> path = expansionCandidate->getAncestors();
 	for (vector<string>::iterator it = path.begin(); it != path.end(); it++) {
-		cout << *it << " ";
+		//cout << *it << " ";
 	}
-	cout << expansionCandidate->getID() << endl;
+	//cout << expansionCandidate->getID() << endl;
 
-	cout << "Cost: " << expansionCandidate->getCost() << endl;
-
-	cout << "PRESS ANY KEY TO QUIT" << endl;
+	//cout << "Cost: " << expansionCandidate->getCost() << endl;
 	cin.get();
+	return generatedNodes;
+}
 
+int main()
+{
+	for (int i = 9; i <= 9; i++) {
+		float avg = 0;
+		for (int j = 1; j <= 1; j++) {
+			int result = solveProblem(i, j);
+			avg += result / 10.0f;
+			cout << result << endl;
+		}
+		cout << i << ", " << avg << endl;
+	}
+	cin.get();
     return 0;
 }
 
