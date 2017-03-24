@@ -6,6 +6,9 @@ class Example:
 		self.attributes = dict(zip(attributes, [value for value in map(float, values)]))
 		self.classification = classification
 
+	def __str__(self):
+		return "Attributes: " + str(self.attributes) + "Classification: " + str(self.classification)
+
 class DecisionTree:
 	def __init__(self, attribute, threshold):
 		self.attribute = attribute
@@ -28,13 +31,7 @@ def entropy(p, n):
 		return 0
 	return -pTerm*log2(pTerm) - nTerm*log2(nTerm)
 
-def remainder(attributeValues):
-	pass
-
-def informationGain(attribute, example):
-	pass
-
-def bestAttribute(attributes, examples):
+def bestAttribute(attributes, examples, prevThresholds):
 	bestIGFound = None
 	bestAttribute = None
 	bestThreshold = None
@@ -45,6 +42,13 @@ def bestAttribute(attributes, examples):
 	p = classList.count(positiveClass)
 	n = classList.count(negativeClass)
 	localEntropy = entropy(p, n)
+	anyAvail = False
+	for attribute in attributes:
+		attributeValues = sorted(set([example.attributes[attribute] for example in examples]))
+		thresholds = [((attributeValues[i] + attributeValues[i + 1]) / 2) for i in range(len(attributeValues) - 1)]
+		for threshold in thresholds:
+			if (threshold not in prevThresholds[attribute]):
+				anyAvail = True
 	for attribute in attributes:
 		attributeValues = sorted(set([example.attributes[attribute] for example in examples]))
 		thresholds = [((attributeValues[i] + attributeValues[i + 1]) / 2) for i in range(len(attributeValues) - 1)]
@@ -64,7 +68,7 @@ def bestAttribute(attributes, examples):
 			remainder = leftPartialRemainder + rightPartialRemainder
 
 			informationGain = localEntropy - remainder
-			if (not bestIGFound or informationGain > bestIGFound):
+			if ((not bestIGFound or informationGain > bestIGFound) and threshold not in prevThresholds[attribute]):
 				#print("IG Improved: ", bestIGFound, " To: ", informationGain)
 				#print("Attribute: ", attribute)
 				bestIGFound = informationGain
@@ -75,8 +79,16 @@ def bestAttribute(attributes, examples):
 
 	return bestAttribute, bestThreshold, bestLeftHalf, bestRightHalf
 
+def traverseDecisionTree(example, decisionTree):
+	if (decisionTree == positiveClass or decisionTree == negativeClass):
+		return decisionTree
+	else:
+		if (example.attributes[decisionTree.attribute] <= decisionTree.threshold):
+			return traverseDecisionTree(example, decisionTree.left)
+		else:
+			return traverseDecisionTree(example, decisionTree.right)
 
-def createDecisionTree(examples, attributes, default):
+def createDecisionTree(examples, attributes, default, prevThresholds):
 	if (not examples):
 		return default
 
@@ -84,32 +96,132 @@ def createDecisionTree(examples, attributes, default):
 	if (classList.count(classList[0]) == len(classList)):
 		return classList[0]
 
-	modeCounter = Counter([example.classification for example in examples])
+	modeCounter = Counter(classList)
 	mode = modeCounter.most_common(1)
-	modeExamples = mode[0]
-	if (not attributes):
-		return modeExamples
+	modeExamples = mode[0][0]
 
-	bestAttrib, threshold, leftHalf, rightHalf = bestAttribute(attributes, examples)
-	leftSubTree = createDecisionTree(leftHalf, attributes, modeExamples)
-	rightSubTree = createDecisionTree(leftHalf, attributes, modeExamples)
+	bestAttrib, threshold, leftHalf, rightHalf = bestAttribute(attributes, examples, prevThresholds)
+	# Because we aren't reducing attributes each time, this is how we check if we've exhausted all of them
+	if (not bestAttrib):
+		return modeExamples
+	prevThresholds[bestAttrib].append(threshold)
+	leftSubTree = createDecisionTree(leftHalf, attributes, modeExamples, prevThresholds)
+	rightSubTree = createDecisionTree(rightHalf, attributes, modeExamples, prevThresholds)
 	retVal = DecisionTree(bestAttrib, threshold)
 	retVal.left = leftSubTree
 	retVal.right = rightSubTree
 	return retVal
+
+# HORSE DECISION TREE
+
+# GLOBAL
+positiveClass = "healthy."
+negativeClass = "colic."
 
 horseAttributes = ["K", "Na", "CL", "HCO3",
 				   "Endotoxin", "Aniongap", "PLA2", "SDH",
 				   "GLDH", "TPP", "Breath rate", "PCV",
 				   "Pulse rate", "Fibrinogen", "Dimer", "FibPerDim"]
 
-examples = []
+horseTrainExamples = []
 with open("horseTrain.txt") as file:
 	for line in [line.strip().split(",") for line in file.readlines()]:
-		examples.append(Example(horseAttributes, line[:-1], line[-1:][0]))
+		horseTrainExamples.append(Example(horseAttributes, line[:-1], line[-1:][0]))
 
-positiveClass = "healthy."
-negativeClass = "colic."
+previousHorseThresholds = {attribute : [] for attribute in horseAttributes}
 
-result = createDecisionTree(examples, horseAttributes, DecisionTree(None, 0))
-print(str(result))
+horseDecisionTree = createDecisionTree(horseTrainExamples, horseAttributes, DecisionTree(None, 0), previousHorseThresholds)
+#print(str(horseDecisionTree))
+
+####################################
+# TRAINING CLASSIFICATION
+
+print("HORSE TRAINING CLASSIFICATION")
+totalRight = 0
+totalWrong = 0
+for example in horseTrainExamples:
+	classification = traverseDecisionTree(example, horseDecisionTree)
+	if (classification == example.classification):
+		totalRight += 1
+	else:
+		totalWrong += 1
+print("Percent Correct: ", totalRight/(totalRight + totalWrong))
+print()
+
+####################################
+# TESTING CLASSIFICATION
+
+horseTestExamples = []
+with open("horseTest.txt") as file:
+	for line in [line.strip().split(",") for line in file.readlines()]:
+		horseTestExamples.append(Example(horseAttributes, line[:-1], line[-1:][0]))
+
+print("HORSE TESTING CLASSIFICATION")
+totalRight = 0
+totalWrong = 0
+for example in horseTestExamples:
+	classification = traverseDecisionTree(example, horseDecisionTree)
+	if (classification == example.classification):
+		totalRight += 1
+	else:
+		totalWrong += 1
+print("Percent Correct: ", totalRight/(totalRight + totalWrong))
+print()
+
+# STUDENT PERFORMANCE DECISION TREE
+
+# GLOBAL
+positiveClass = "1"
+negativeClass = "0"
+
+studPerfAttributes = ["SchoolAttended", "Sex" , "Age" , "Neighbourhood",
+				   "FamSize", "ParentsTogether", "MEdu", "FEdu",
+				   "ParentGuard", "GuardGender", "CommuteTime", "WorkTime",
+				   "PastFails", "ExtraSupport", "FamSupport", "ExtraPaidClasses",
+				   "ExtraCurric", "NurserySchool", "HigherEd", "Internet",
+				   "Romantic" , "FamRelQual" , "FreeTime" , "GoingOut",
+				   "WdAlcohol", "WeAlcohol", "Health" , "Absences"]
+
+studPerfTrainExamples = []
+with open("porto_math_train.csv") as file:
+	for line in [line.strip().split(",") for line in file.readlines()]:
+		studPerfTrainExamples.append(Example(studPerfAttributes, line[:-1], line[-1:][0]))
+
+previousStudPerfThresholds = {attribute : [] for attribute in studPerfAttributes}
+
+studPerfDecisionTree = createDecisionTree(studPerfTrainExamples, studPerfAttributes, DecisionTree(None, 0), previousStudPerfThresholds)
+#print(str(studPerfDecisionTree))
+
+####################################
+# TRAINING CLASSIFICATION
+
+print("STUD PERF TRAINING CLASSIFICATION")
+totalRight = 0
+totalWrong = 0
+for example in studPerfTrainExamples:
+	classification = traverseDecisionTree(example, studPerfDecisionTree)
+	if (classification == example.classification):
+		totalRight += 1
+	else:
+		totalWrong += 1
+print("Percent Correct: ", totalRight/(totalRight + totalWrong))
+print()
+
+####################################
+# TESTING CLASSIFICATION
+
+studPerfTestExamples = []
+with open("porto_math_test.csv") as file:
+	for line in [line.strip().split(",") for line in file.readlines()]:
+		studPerfTestExamples.append(Example(studPerfAttributes, line[:-1], line[-1:][0]))
+
+print("STUD PERF TESTING CLASSIFICATION")
+totalRight = 0
+totalWrong = 0
+for example in studPerfTestExamples:
+	classification = traverseDecisionTree(example, studPerfDecisionTree)
+	if (classification == example.classification):
+		totalRight += 1
+	else:
+		totalWrong += 1
+print("Percent Correct: ", totalRight/(totalRight + totalWrong))
