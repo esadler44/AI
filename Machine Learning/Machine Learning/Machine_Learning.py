@@ -19,9 +19,9 @@ class DecisionTree:
 		self.right = None
 
 	def __str__(self):
-		retVal = "Attribute: " + str(self.attribute) + " Threshold: " + str(self.threshold)
-		retVal += " L: " + str(self.left)
-		retVal += " R: " + str(self.right)
+		retVal = "Attribute: " + str(self.attribute) + ", Threshold: " + str(self.threshold)
+		retVal += "\nL: " + str(self.left)
+		retVal += "\nR: " + str(self.right)
 		return retVal
 
 def entropy(p, n):
@@ -88,6 +88,18 @@ def traverseDecisionTree(example, decisionTree):
 		else:
 			return traverseDecisionTree(example, decisionTree.right)
 
+def getPathThroughTree(example, decisionTree):
+	if (decisionTree == positiveClass or decisionTree == negativeClass):
+		return str(decisionTree)
+	retVal = "Attribute: " + str(decisionTree.attribute) + ", Threshold: " + str(decisionTree.threshold)
+	if (example.attributes[decisionTree.attribute] <= decisionTree.threshold):
+		retVal += ", <=:\n"
+		retVal += getPathThroughTree(example, decisionTree.left)
+	else:
+		retVal += ", >:\n"
+		retVal += getPathThroughTree(example, decisionTree.right)
+	return retVal
+
 def createDecisionTree(examples, attributes, default, prevThresholds):
 	if (not examples):
 		return default
@@ -131,7 +143,8 @@ with open("horseTrain.txt") as file:
 previousHorseThresholds = {attribute : [] for attribute in horseAttributes}
 
 horseDecisionTree = createDecisionTree(horseTrainExamples, horseAttributes, DecisionTree(None, 0), previousHorseThresholds)
-#print(str(horseDecisionTree))
+with open("horseDecisionTree.txt", "w") as file:
+	file.write(str(horseDecisionTree))
 
 ####################################
 # TRAINING CLASSIFICATION
@@ -139,12 +152,16 @@ horseDecisionTree = createDecisionTree(horseTrainExamples, horseAttributes, Deci
 print("HORSE TRAINING CLASSIFICATION")
 totalRight = 0
 totalWrong = 0
-for example in horseTrainExamples:
-	classification = traverseDecisionTree(example, horseDecisionTree)
-	if (classification == example.classification):
-		totalRight += 1
-	else:
-		totalWrong += 1
+with open("horseTrainOutput.txt", "w") as file:
+	for example in horseTrainExamples:
+		classification = traverseDecisionTree(example, horseDecisionTree)
+		path = getPathThroughTree(example, horseDecisionTree)
+		file.write(path + "\n")
+		file.write("\n")
+		if (classification == example.classification):
+			totalRight += 1
+		else:
+			totalWrong += 1
 print("Percent Correct: ", totalRight/(totalRight + totalWrong))
 print()
 
@@ -159,12 +176,16 @@ with open("horseTest.txt") as file:
 print("HORSE TESTING CLASSIFICATION")
 totalRight = 0
 totalWrong = 0
-for example in horseTestExamples:
-	classification = traverseDecisionTree(example, horseDecisionTree)
-	if (classification == example.classification):
-		totalRight += 1
-	else:
-		totalWrong += 1
+with open("horseTestOutput.txt", "w") as file:
+	for example in horseTestExamples:
+		classification = traverseDecisionTree(example, horseDecisionTree)
+		path = getPathThroughTree(example, horseDecisionTree)
+		file.write(path + "\n")
+		file.write("\n")
+		if (classification == example.classification):
+			totalRight += 1
+		else:
+			totalWrong += 1
 print("Percent Correct: ", totalRight/(totalRight + totalWrong))
 print()
 
@@ -190,7 +211,8 @@ with open("porto_math_train.csv") as file:
 previousStudPerfThresholds = {attribute : [] for attribute in studPerfAttributes}
 
 studPerfDecisionTree = createDecisionTree(studPerfTrainExamples, studPerfAttributes, DecisionTree(None, 0), previousStudPerfThresholds)
-#print(str(studPerfDecisionTree))
+with open("studPerfDecisionTree.txt", "w") as file:
+	file.write(str(studPerfDecisionTree))
 
 ####################################
 # TRAINING CLASSIFICATION
@@ -198,12 +220,16 @@ studPerfDecisionTree = createDecisionTree(studPerfTrainExamples, studPerfAttribu
 print("STUD PERF TRAINING CLASSIFICATION")
 totalRight = 0
 totalWrong = 0
-for example in studPerfTrainExamples:
-	classification = traverseDecisionTree(example, studPerfDecisionTree)
-	if (classification == example.classification):
-		totalRight += 1
-	else:
-		totalWrong += 1
+with open("studPerfTrainOutput.txt", "w") as file:
+	for example in studPerfTrainExamples:
+		classification = traverseDecisionTree(example, studPerfDecisionTree)
+		path = getPathThroughTree(example, studPerfDecisionTree)
+		file.write(path + "\n")
+		file.write("\n")
+		if (classification == example.classification):
+			totalRight += 1
+		else:
+			totalWrong += 1
 print("Percent Correct: ", totalRight/(totalRight + totalWrong))
 print()
 
@@ -218,10 +244,14 @@ with open("porto_math_test.csv") as file:
 print("STUD PERF TESTING CLASSIFICATION")
 totalRight = 0
 totalWrong = 0
-for example in studPerfTestExamples:
-	classification = traverseDecisionTree(example, studPerfDecisionTree)
-	if (classification == example.classification):
-		totalRight += 1
-	else:
-		totalWrong += 1
+with open("studPerfTestOutput.txt", "w") as file:
+	for example in studPerfTestExamples:
+		classification = traverseDecisionTree(example, studPerfDecisionTree)
+		path = getPathThroughTree(example, studPerfDecisionTree)
+		file.write(path + "\n")
+		file.write("\n")
+		if (classification == example.classification):
+			totalRight += 1
+		else:
+			totalWrong += 1
 print("Percent Correct: ", totalRight/(totalRight + totalWrong))

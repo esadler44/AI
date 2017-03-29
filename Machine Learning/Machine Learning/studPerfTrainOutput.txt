@@ -1,0 +1,2861 @@
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, <=:
+Attribute: Health, Threshold: 1.5, <=:
+1
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, >:
+Attribute: Absences, Threshold: 6.5, <=:
+Attribute: Internet, Threshold: 0.5, >:
+Attribute: ParentGuard, Threshold: 0.5, >:
+Attribute: GoingOut, Threshold: 4.5, <=:
+Attribute: FamSupport, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 1.0, <=:
+Attribute: WorkTime, Threshold: 3.5, <=:
+Attribute: ExtraSupport, Threshold: 0.5, >:
+Attribute: WdAlcohol, Threshold: 3.0, <=:
+Attribute: WeAlcohol, Threshold: 1.5, <=:
+Attribute: MEdu, Threshold: 2.5, >:
+Attribute: Health, Threshold: 2.0, <=:
+Attribute: FamRelQual, Threshold: 3.0, >:
+0
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 0.5, >:
+Attribute: CommuteTime, Threshold: 1.5, <=:
+Attribute: WeAlcohol, Threshold: 3.5, >:
+Attribute: WdAlcohol, Threshold: 1.5, >:
+Attribute: NurserySchool, Threshold: 0.5, >:
+1
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, <=:
+Attribute: Health, Threshold: 1.5, >:
+Attribute: Absences, Threshold: 5.0, <=:
+Attribute: Neighbourhood, Threshold: 0.5, <=:
+1
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, >:
+Attribute: Absences, Threshold: 6.5, <=:
+Attribute: Internet, Threshold: 0.5, >:
+Attribute: ParentGuard, Threshold: 0.5, >:
+Attribute: GoingOut, Threshold: 4.5, <=:
+Attribute: FamSupport, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 1.0, >:
+Attribute: FreeTime, Threshold: 1.5, >:
+Attribute: FreeTime, Threshold: 3.5, <=:
+Attribute: CommuteTime, Threshold: 2.5, <=:
+Attribute: FEdu, Threshold: 3.5, <=:
+Attribute: ParentsTogether, Threshold: 0.5, <=:
+Attribute: Health, Threshold: 3.0, >:
+Attribute: Absences, Threshold: 3.0, <=:
+1
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, >:
+Attribute: Absences, Threshold: 6.5, <=:
+Attribute: Internet, Threshold: 0.5, >:
+Attribute: ParentGuard, Threshold: 0.5, >:
+Attribute: GoingOut, Threshold: 4.5, <=:
+Attribute: FamSupport, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 1.0, >:
+Attribute: FreeTime, Threshold: 1.5, >:
+Attribute: FreeTime, Threshold: 3.5, <=:
+Attribute: CommuteTime, Threshold: 2.5, <=:
+Attribute: FEdu, Threshold: 3.5, >:
+Attribute: MEdu, Threshold: 3.0, <=:
+0
+
+Attribute: PastFails, Threshold: 0.5, >:
+Attribute: Age, Threshold: 18.5, >:
+Attribute: PastFails, Threshold: 2.5, <=:
+Attribute: WeAlcohol, Threshold: 4.0, <=:
+Attribute: Absences, Threshold: 14.5, <=:
+Attribute: Absences, Threshold: 8.0, <=:
+Attribute: Age, Threshold: 19.5, <=:
+Attribute: CommuteTime, Threshold: 2.0, <=:
+Attribute: Absences, Threshold: 1.5, <=:
+0
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, <=:
+Attribute: Health, Threshold: 1.5, <=:
+1
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 0.5, >:
+Attribute: CommuteTime, Threshold: 1.5, <=:
+Attribute: WeAlcohol, Threshold: 3.5, >:
+Attribute: WdAlcohol, Threshold: 1.5, <=:
+1
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, >:
+Attribute: Absences, Threshold: 6.5, <=:
+Attribute: Internet, Threshold: 0.5, >:
+Attribute: ParentGuard, Threshold: 0.5, >:
+Attribute: GoingOut, Threshold: 4.5, <=:
+Attribute: FamSupport, Threshold: 0.5, >:
+Attribute: Health, Threshold: 4.0, >:
+Attribute: WorkTime, Threshold: 1.5, >:
+Attribute: FreeTime, Threshold: 3.0, <=:
+1
+
+Attribute: PastFails, Threshold: 0.5, >:
+Attribute: Age, Threshold: 18.5, >:
+Attribute: PastFails, Threshold: 2.5, <=:
+Attribute: WeAlcohol, Threshold: 4.0, <=:
+Attribute: Absences, Threshold: 14.5, <=:
+Attribute: Absences, Threshold: 8.0, <=:
+Attribute: Age, Threshold: 19.5, >:
+1
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, <=:
+Attribute: Health, Threshold: 1.5, >:
+Attribute: Absences, Threshold: 5.0, <=:
+Attribute: Neighbourhood, Threshold: 0.5, >:
+Attribute: FamRelQual, Threshold: 4.5, <=:
+Attribute: Health, Threshold: 2.5, <=:
+0
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 0.5, >:
+Attribute: CommuteTime, Threshold: 1.5, <=:
+Attribute: WeAlcohol, Threshold: 3.5, <=:
+Attribute: FamRelQual, Threshold: 2.5, >:
+1
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, >:
+Attribute: Absences, Threshold: 6.5, <=:
+Attribute: Internet, Threshold: 0.5, >:
+Attribute: ParentGuard, Threshold: 0.5, >:
+Attribute: GoingOut, Threshold: 4.5, <=:
+Attribute: FamSupport, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 1.0, <=:
+Attribute: WorkTime, Threshold: 3.5, <=:
+Attribute: ExtraSupport, Threshold: 0.5, >:
+Attribute: WdAlcohol, Threshold: 3.0, <=:
+Attribute: WeAlcohol, Threshold: 1.5, >:
+0
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, <=:
+Attribute: Age, Threshold: 16.5, <=:
+Attribute: FamRelQual, Threshold: 3.5, >:
+0
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, >:
+Attribute: Absences, Threshold: 6.5, <=:
+Attribute: Internet, Threshold: 0.5, >:
+Attribute: ParentGuard, Threshold: 0.5, >:
+Attribute: GoingOut, Threshold: 4.5, <=:
+Attribute: FamSupport, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 1.0, >:
+Attribute: FreeTime, Threshold: 1.5, >:
+Attribute: FreeTime, Threshold: 3.5, <=:
+Attribute: CommuteTime, Threshold: 2.5, <=:
+Attribute: FEdu, Threshold: 3.5, >:
+Attribute: MEdu, Threshold: 3.0, >:
+1
+
+Attribute: PastFails, Threshold: 0.5, >:
+Attribute: Age, Threshold: 18.5, <=:
+Attribute: WdAlcohol, Threshold: 3.5, <=:
+Attribute: PastFails, Threshold: 1.5, <=:
+Attribute: Absences, Threshold: 10.0, <=:
+Attribute: Absences, Threshold: 7.0, <=:
+Attribute: HigherEd, Threshold: 0.5, >:
+Attribute: Absences, Threshold: 4.0, <=:
+Attribute: GoingOut, Threshold: 1.5, >:
+Attribute: MEdu, Threshold: 2.0, >:
+0
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, >:
+Attribute: Absences, Threshold: 6.5, <=:
+Attribute: Internet, Threshold: 0.5, >:
+Attribute: ParentGuard, Threshold: 0.5, >:
+Attribute: GoingOut, Threshold: 4.5, <=:
+Attribute: FamSupport, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 1.0, >:
+Attribute: FreeTime, Threshold: 1.5, >:
+Attribute: FreeTime, Threshold: 3.5, <=:
+Attribute: CommuteTime, Threshold: 2.5, <=:
+Attribute: FEdu, Threshold: 3.5, <=:
+Attribute: ParentsTogether, Threshold: 0.5, <=:
+Attribute: Health, Threshold: 3.0, >:
+Attribute: Absences, Threshold: 3.0, >:
+Attribute: Age, Threshold: 15.5, >:
+0
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, <=:
+Attribute: Health, Threshold: 1.5, <=:
+1
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, >:
+Attribute: Absences, Threshold: 6.5, >:
+Attribute: WdAlcohol, Threshold: 4.0, <=:
+Attribute: Absences, Threshold: 8.5, <=:
+Attribute: WdAlcohol, Threshold: 2.5, >:
+0
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 0.5, <=:
+Attribute: Romantic, Threshold: 0.5, <=:
+0
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 0.5, <=:
+Attribute: Romantic, Threshold: 0.5, >:
+Attribute: Health, Threshold: 3.5, >:
+Attribute: Health, Threshold: 4.5, <=:
+0
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 0.5, >:
+Attribute: CommuteTime, Threshold: 1.5, <=:
+Attribute: WeAlcohol, Threshold: 3.5, <=:
+Attribute: FamRelQual, Threshold: 2.5, <=:
+Attribute: MEdu, Threshold: 3.5, <=:
+0
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 0.5, >:
+Attribute: CommuteTime, Threshold: 1.5, <=:
+Attribute: WeAlcohol, Threshold: 3.5, <=:
+Attribute: FamRelQual, Threshold: 2.5, >:
+1
+
+Attribute: PastFails, Threshold: 0.5, >:
+Attribute: Age, Threshold: 18.5, <=:
+Attribute: WdAlcohol, Threshold: 3.5, <=:
+Attribute: PastFails, Threshold: 1.5, >:
+0
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 0.5, <=:
+Attribute: Romantic, Threshold: 0.5, >:
+Attribute: Health, Threshold: 3.5, <=:
+1
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, >:
+0
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, <=:
+Attribute: Health, Threshold: 1.5, >:
+Attribute: Absences, Threshold: 5.0, <=:
+Attribute: Neighbourhood, Threshold: 0.5, >:
+Attribute: FamRelQual, Threshold: 4.5, <=:
+Attribute: Health, Threshold: 2.5, >:
+Attribute: FEdu, Threshold: 2.5, >:
+Attribute: FreeTime, Threshold: 4.5, <=:
+Attribute: ExtraCurric, Threshold: 0.5, <=:
+Attribute: GuardGender, Threshold: 0.5, <=:
+Attribute: FreeTime, Threshold: 2.5, <=:
+1
+
+Attribute: PastFails, Threshold: 0.5, >:
+Attribute: Age, Threshold: 18.5, <=:
+Attribute: WdAlcohol, Threshold: 3.5, <=:
+Attribute: PastFails, Threshold: 1.5, <=:
+Attribute: Absences, Threshold: 10.0, >:
+0
+
+Attribute: PastFails, Threshold: 0.5, >:
+Attribute: Age, Threshold: 18.5, <=:
+Attribute: WdAlcohol, Threshold: 3.5, <=:
+Attribute: PastFails, Threshold: 1.5, >:
+0
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, >:
+Attribute: Absences, Threshold: 6.5, <=:
+Attribute: Internet, Threshold: 0.5, >:
+Attribute: ParentGuard, Threshold: 0.5, >:
+Attribute: GoingOut, Threshold: 4.5, >:
+1
+
+Attribute: PastFails, Threshold: 0.5, >:
+Attribute: Age, Threshold: 18.5, >:
+Attribute: PastFails, Threshold: 2.5, <=:
+Attribute: WeAlcohol, Threshold: 4.0, <=:
+Attribute: Absences, Threshold: 14.5, <=:
+Attribute: Absences, Threshold: 8.0, <=:
+Attribute: Age, Threshold: 19.5, <=:
+Attribute: CommuteTime, Threshold: 2.0, <=:
+Attribute: Absences, Threshold: 1.5, <=:
+0
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, <=:
+Attribute: Health, Threshold: 1.5, >:
+Attribute: Absences, Threshold: 5.0, <=:
+Attribute: Neighbourhood, Threshold: 0.5, <=:
+1
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, <=:
+Attribute: Health, Threshold: 1.5, >:
+Attribute: Absences, Threshold: 5.0, <=:
+Attribute: Neighbourhood, Threshold: 0.5, <=:
+1
+
+Attribute: PastFails, Threshold: 0.5, >:
+Attribute: Age, Threshold: 18.5, >:
+Attribute: PastFails, Threshold: 2.5, <=:
+Attribute: WeAlcohol, Threshold: 4.0, <=:
+Attribute: Absences, Threshold: 14.5, <=:
+Attribute: Absences, Threshold: 8.0, <=:
+Attribute: Age, Threshold: 19.5, <=:
+Attribute: CommuteTime, Threshold: 2.0, <=:
+Attribute: Absences, Threshold: 1.5, >:
+1
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 0.5, >:
+Attribute: CommuteTime, Threshold: 1.5, <=:
+Attribute: WeAlcohol, Threshold: 3.5, <=:
+Attribute: FamRelQual, Threshold: 2.5, >:
+1
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, >:
+Attribute: Absences, Threshold: 6.5, <=:
+Attribute: Internet, Threshold: 0.5, >:
+Attribute: ParentGuard, Threshold: 0.5, >:
+Attribute: GoingOut, Threshold: 4.5, <=:
+Attribute: FamSupport, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 1.0, <=:
+Attribute: WorkTime, Threshold: 3.5, <=:
+Attribute: ExtraSupport, Threshold: 0.5, >:
+Attribute: WdAlcohol, Threshold: 3.0, <=:
+Attribute: WeAlcohol, Threshold: 1.5, >:
+0
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, <=:
+Attribute: Health, Threshold: 1.5, >:
+Attribute: Absences, Threshold: 5.0, <=:
+Attribute: Neighbourhood, Threshold: 0.5, >:
+Attribute: FamRelQual, Threshold: 4.5, <=:
+Attribute: Health, Threshold: 2.5, >:
+Attribute: FEdu, Threshold: 2.5, <=:
+1
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, <=:
+Attribute: Health, Threshold: 1.5, >:
+Attribute: Absences, Threshold: 5.0, <=:
+Attribute: Neighbourhood, Threshold: 0.5, >:
+Attribute: FamRelQual, Threshold: 4.5, <=:
+Attribute: Health, Threshold: 2.5, >:
+Attribute: FEdu, Threshold: 2.5, >:
+Attribute: FreeTime, Threshold: 4.5, <=:
+Attribute: ExtraCurric, Threshold: 0.5, <=:
+Attribute: GuardGender, Threshold: 0.5, <=:
+Attribute: FreeTime, Threshold: 2.5, <=:
+1
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, <=:
+Attribute: Health, Threshold: 1.5, >:
+Attribute: Absences, Threshold: 5.0, <=:
+Attribute: Neighbourhood, Threshold: 0.5, >:
+Attribute: FamRelQual, Threshold: 4.5, >:
+1
+
+Attribute: PastFails, Threshold: 0.5, >:
+Attribute: Age, Threshold: 18.5, <=:
+Attribute: WdAlcohol, Threshold: 3.5, <=:
+Attribute: PastFails, Threshold: 1.5, <=:
+Attribute: Absences, Threshold: 10.0, <=:
+Attribute: Absences, Threshold: 7.0, <=:
+Attribute: HigherEd, Threshold: 0.5, >:
+Attribute: Absences, Threshold: 4.0, <=:
+Attribute: GoingOut, Threshold: 1.5, >:
+Attribute: MEdu, Threshold: 2.0, <=:
+0
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, >:
+0
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, >:
+Attribute: Absences, Threshold: 6.5, <=:
+Attribute: Internet, Threshold: 0.5, >:
+Attribute: ParentGuard, Threshold: 0.5, >:
+Attribute: GoingOut, Threshold: 4.5, <=:
+Attribute: FamSupport, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 1.0, <=:
+Attribute: WorkTime, Threshold: 3.5, <=:
+Attribute: ExtraSupport, Threshold: 0.5, >:
+Attribute: WdAlcohol, Threshold: 3.0, >:
+1
+
+Attribute: PastFails, Threshold: 0.5, >:
+Attribute: Age, Threshold: 18.5, <=:
+Attribute: WdAlcohol, Threshold: 3.5, <=:
+Attribute: PastFails, Threshold: 1.5, >:
+0
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, >:
+Attribute: Absences, Threshold: 6.5, >:
+Attribute: WdAlcohol, Threshold: 4.0, <=:
+Attribute: Absences, Threshold: 8.5, >:
+0
+
+Attribute: PastFails, Threshold: 0.5, >:
+Attribute: Age, Threshold: 18.5, <=:
+Attribute: WdAlcohol, Threshold: 3.5, <=:
+Attribute: PastFails, Threshold: 1.5, >:
+0
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, >:
+Attribute: Absences, Threshold: 6.5, <=:
+Attribute: Internet, Threshold: 0.5, >:
+Attribute: ParentGuard, Threshold: 0.5, >:
+Attribute: GoingOut, Threshold: 4.5, <=:
+Attribute: FamSupport, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 1.0, >:
+Attribute: FreeTime, Threshold: 1.5, >:
+Attribute: FreeTime, Threshold: 3.5, <=:
+Attribute: CommuteTime, Threshold: 2.5, >:
+1
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, >:
+Attribute: Absences, Threshold: 6.5, <=:
+Attribute: Internet, Threshold: 0.5, >:
+Attribute: ParentGuard, Threshold: 0.5, >:
+Attribute: GoingOut, Threshold: 4.5, <=:
+Attribute: FamSupport, Threshold: 0.5, >:
+Attribute: Health, Threshold: 4.0, <=:
+1
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 0.5, >:
+Attribute: CommuteTime, Threshold: 1.5, >:
+Attribute: GoingOut, Threshold: 3.5, <=:
+Attribute: WeAlcohol, Threshold: 2.5, <=:
+Attribute: FEdu, Threshold: 0.5, >:
+1
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, <=:
+Attribute: Health, Threshold: 1.5, >:
+Attribute: Absences, Threshold: 5.0, <=:
+Attribute: Neighbourhood, Threshold: 0.5, >:
+Attribute: FamRelQual, Threshold: 4.5, <=:
+Attribute: Health, Threshold: 2.5, >:
+Attribute: FEdu, Threshold: 2.5, >:
+Attribute: FreeTime, Threshold: 4.5, >:
+0
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 0.5, >:
+Attribute: CommuteTime, Threshold: 1.5, <=:
+Attribute: WeAlcohol, Threshold: 3.5, >:
+Attribute: WdAlcohol, Threshold: 1.5, <=:
+1
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, <=:
+Attribute: Health, Threshold: 1.5, >:
+Attribute: Absences, Threshold: 5.0, <=:
+Attribute: Neighbourhood, Threshold: 0.5, <=:
+1
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, >:
+Attribute: Absences, Threshold: 6.5, <=:
+Attribute: Internet, Threshold: 0.5, >:
+Attribute: ParentGuard, Threshold: 0.5, >:
+Attribute: GoingOut, Threshold: 4.5, <=:
+Attribute: FamSupport, Threshold: 0.5, >:
+Attribute: Health, Threshold: 4.0, >:
+Attribute: WorkTime, Threshold: 1.5, <=:
+0
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 0.5, <=:
+Attribute: Romantic, Threshold: 0.5, >:
+Attribute: Health, Threshold: 3.5, >:
+Attribute: Health, Threshold: 4.5, >:
+Attribute: FEdu, Threshold: 3.0, <=:
+1
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, <=:
+Attribute: Health, Threshold: 1.5, <=:
+1
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, >:
+Attribute: Absences, Threshold: 6.5, <=:
+Attribute: Internet, Threshold: 0.5, >:
+Attribute: ParentGuard, Threshold: 0.5, >:
+Attribute: GoingOut, Threshold: 4.5, <=:
+Attribute: FamSupport, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 1.0, <=:
+Attribute: WorkTime, Threshold: 3.5, <=:
+Attribute: ExtraSupport, Threshold: 0.5, >:
+Attribute: WdAlcohol, Threshold: 3.0, <=:
+Attribute: WeAlcohol, Threshold: 1.5, <=:
+Attribute: MEdu, Threshold: 2.5, >:
+Attribute: Health, Threshold: 2.0, <=:
+Attribute: FamRelQual, Threshold: 3.0, <=:
+1
+
+Attribute: PastFails, Threshold: 0.5, >:
+Attribute: Age, Threshold: 18.5, <=:
+Attribute: WdAlcohol, Threshold: 3.5, <=:
+Attribute: PastFails, Threshold: 1.5, >:
+0
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, <=:
+Attribute: Health, Threshold: 1.5, <=:
+1
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, <=:
+Attribute: Health, Threshold: 1.5, >:
+Attribute: Absences, Threshold: 5.0, >:
+Attribute: Age, Threshold: 17.5, >:
+1
+
+Attribute: PastFails, Threshold: 0.5, >:
+Attribute: Age, Threshold: 18.5, <=:
+Attribute: WdAlcohol, Threshold: 3.5, >:
+1
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, <=:
+Attribute: Health, Threshold: 1.5, >:
+Attribute: Absences, Threshold: 5.0, <=:
+Attribute: Neighbourhood, Threshold: 0.5, >:
+Attribute: FamRelQual, Threshold: 4.5, <=:
+Attribute: Health, Threshold: 2.5, <=:
+0
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, >:
+Attribute: Absences, Threshold: 6.5, >:
+Attribute: WdAlcohol, Threshold: 4.0, <=:
+Attribute: Absences, Threshold: 8.5, <=:
+Attribute: WdAlcohol, Threshold: 2.5, <=:
+Attribute: Absences, Threshold: 7.5, >:
+0
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, <=:
+Attribute: Age, Threshold: 16.5, >:
+Attribute: WorkTime, Threshold: 2.5, <=:
+0
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 0.5, <=:
+Attribute: Romantic, Threshold: 0.5, >:
+Attribute: Health, Threshold: 3.5, >:
+Attribute: Health, Threshold: 4.5, >:
+Attribute: FEdu, Threshold: 3.0, >:
+0
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, >:
+0
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, >:
+Attribute: Absences, Threshold: 6.5, >:
+Attribute: WdAlcohol, Threshold: 4.0, <=:
+Attribute: Absences, Threshold: 8.5, <=:
+Attribute: WdAlcohol, Threshold: 2.5, <=:
+Attribute: Absences, Threshold: 7.5, >:
+0
+
+Attribute: PastFails, Threshold: 0.5, >:
+Attribute: Age, Threshold: 18.5, <=:
+Attribute: WdAlcohol, Threshold: 3.5, <=:
+Attribute: PastFails, Threshold: 1.5, <=:
+Attribute: Absences, Threshold: 10.0, <=:
+Attribute: Absences, Threshold: 7.0, <=:
+Attribute: HigherEd, Threshold: 0.5, <=:
+0
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, <=:
+Attribute: Health, Threshold: 1.5, <=:
+1
+
+Attribute: PastFails, Threshold: 0.5, >:
+Attribute: Age, Threshold: 18.5, >:
+Attribute: PastFails, Threshold: 2.5, <=:
+Attribute: WeAlcohol, Threshold: 4.0, <=:
+Attribute: Absences, Threshold: 14.5, >:
+Attribute: Absences, Threshold: 19.0, >:
+Attribute: Absences, Threshold: 30.0, >:
+Attribute: WorkTime, Threshold: 2.0, >:
+1
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, <=:
+Attribute: Health, Threshold: 1.5, >:
+Attribute: Absences, Threshold: 5.0, <=:
+Attribute: Neighbourhood, Threshold: 0.5, >:
+Attribute: FamRelQual, Threshold: 4.5, <=:
+Attribute: Health, Threshold: 2.5, >:
+Attribute: FEdu, Threshold: 2.5, >:
+Attribute: FreeTime, Threshold: 4.5, <=:
+Attribute: ExtraCurric, Threshold: 0.5, >:
+1
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, <=:
+Attribute: Health, Threshold: 1.5, >:
+Attribute: Absences, Threshold: 5.0, <=:
+Attribute: Neighbourhood, Threshold: 0.5, >:
+Attribute: FamRelQual, Threshold: 4.5, >:
+1
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, <=:
+Attribute: Health, Threshold: 1.5, >:
+Attribute: Absences, Threshold: 5.0, <=:
+Attribute: Neighbourhood, Threshold: 0.5, >:
+Attribute: FamRelQual, Threshold: 4.5, <=:
+Attribute: Health, Threshold: 2.5, >:
+Attribute: FEdu, Threshold: 2.5, <=:
+1
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 0.5, >:
+Attribute: CommuteTime, Threshold: 1.5, <=:
+Attribute: WeAlcohol, Threshold: 3.5, <=:
+Attribute: FamRelQual, Threshold: 2.5, >:
+1
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, >:
+Attribute: Absences, Threshold: 6.5, <=:
+Attribute: Internet, Threshold: 0.5, >:
+Attribute: ParentGuard, Threshold: 0.5, >:
+Attribute: GoingOut, Threshold: 4.5, <=:
+Attribute: FamSupport, Threshold: 0.5, >:
+Attribute: Health, Threshold: 4.0, <=:
+1
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 0.5, >:
+Attribute: CommuteTime, Threshold: 1.5, <=:
+Attribute: WeAlcohol, Threshold: 3.5, >:
+Attribute: WdAlcohol, Threshold: 1.5, >:
+Attribute: NurserySchool, Threshold: 0.5, <=:
+0
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, <=:
+Attribute: Health, Threshold: 1.5, >:
+Attribute: Absences, Threshold: 5.0, <=:
+Attribute: Neighbourhood, Threshold: 0.5, >:
+Attribute: FamRelQual, Threshold: 4.5, >:
+1
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, <=:
+Attribute: Age, Threshold: 16.5, <=:
+Attribute: FamRelQual, Threshold: 3.5, <=:
+1
+
+Attribute: PastFails, Threshold: 0.5, >:
+Attribute: Age, Threshold: 18.5, <=:
+Attribute: WdAlcohol, Threshold: 3.5, <=:
+Attribute: PastFails, Threshold: 1.5, <=:
+Attribute: Absences, Threshold: 10.0, <=:
+Attribute: Absences, Threshold: 7.0, >:
+1
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, >:
+Attribute: Absences, Threshold: 6.5, <=:
+Attribute: Internet, Threshold: 0.5, >:
+Attribute: ParentGuard, Threshold: 0.5, >:
+Attribute: GoingOut, Threshold: 4.5, <=:
+Attribute: FamSupport, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 1.0, >:
+Attribute: FreeTime, Threshold: 1.5, >:
+Attribute: FreeTime, Threshold: 3.5, <=:
+Attribute: CommuteTime, Threshold: 2.5, <=:
+Attribute: FEdu, Threshold: 3.5, <=:
+Attribute: ParentsTogether, Threshold: 0.5, <=:
+Attribute: Health, Threshold: 3.0, >:
+Attribute: Absences, Threshold: 3.0, >:
+Attribute: Age, Threshold: 15.5, >:
+0
+
+Attribute: PastFails, Threshold: 0.5, >:
+Attribute: Age, Threshold: 18.5, <=:
+Attribute: WdAlcohol, Threshold: 3.5, <=:
+Attribute: PastFails, Threshold: 1.5, <=:
+Attribute: Absences, Threshold: 10.0, >:
+0
+
+Attribute: PastFails, Threshold: 0.5, >:
+Attribute: Age, Threshold: 18.5, <=:
+Attribute: WdAlcohol, Threshold: 3.5, <=:
+Attribute: PastFails, Threshold: 1.5, >:
+0
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, >:
+Attribute: Absences, Threshold: 6.5, <=:
+Attribute: Internet, Threshold: 0.5, >:
+Attribute: ParentGuard, Threshold: 0.5, >:
+Attribute: GoingOut, Threshold: 4.5, <=:
+Attribute: FamSupport, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 1.0, >:
+Attribute: FreeTime, Threshold: 1.5, >:
+Attribute: FreeTime, Threshold: 3.5, <=:
+Attribute: CommuteTime, Threshold: 2.5, <=:
+Attribute: FEdu, Threshold: 3.5, <=:
+Attribute: ParentsTogether, Threshold: 0.5, <=:
+Attribute: Health, Threshold: 3.0, <=:
+1
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, <=:
+Attribute: Health, Threshold: 1.5, >:
+Attribute: Absences, Threshold: 5.0, <=:
+Attribute: Neighbourhood, Threshold: 0.5, >:
+Attribute: FamRelQual, Threshold: 4.5, <=:
+Attribute: Health, Threshold: 2.5, >:
+Attribute: FEdu, Threshold: 2.5, >:
+Attribute: FreeTime, Threshold: 4.5, <=:
+Attribute: ExtraCurric, Threshold: 0.5, <=:
+Attribute: GuardGender, Threshold: 0.5, >:
+0
+
+Attribute: PastFails, Threshold: 0.5, >:
+Attribute: Age, Threshold: 18.5, <=:
+Attribute: WdAlcohol, Threshold: 3.5, <=:
+Attribute: PastFails, Threshold: 1.5, <=:
+Attribute: Absences, Threshold: 10.0, <=:
+Attribute: Absences, Threshold: 7.0, <=:
+Attribute: HigherEd, Threshold: 0.5, >:
+Attribute: Absences, Threshold: 4.0, <=:
+Attribute: GoingOut, Threshold: 1.5, <=:
+0
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, <=:
+Attribute: Health, Threshold: 1.5, >:
+Attribute: Absences, Threshold: 5.0, <=:
+Attribute: Neighbourhood, Threshold: 0.5, <=:
+1
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 0.5, >:
+Attribute: CommuteTime, Threshold: 1.5, <=:
+Attribute: WeAlcohol, Threshold: 3.5, <=:
+Attribute: FamRelQual, Threshold: 2.5, >:
+1
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, <=:
+Attribute: Health, Threshold: 1.5, >:
+Attribute: Absences, Threshold: 5.0, <=:
+Attribute: Neighbourhood, Threshold: 0.5, >:
+Attribute: FamRelQual, Threshold: 4.5, <=:
+Attribute: Health, Threshold: 2.5, >:
+Attribute: FEdu, Threshold: 2.5, >:
+Attribute: FreeTime, Threshold: 4.5, <=:
+Attribute: ExtraCurric, Threshold: 0.5, <=:
+Attribute: GuardGender, Threshold: 0.5, >:
+0
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, <=:
+Attribute: Age, Threshold: 16.5, >:
+Attribute: WorkTime, Threshold: 2.5, >:
+1
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, <=:
+Attribute: Age, Threshold: 16.5, >:
+Attribute: WorkTime, Threshold: 2.5, <=:
+0
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 0.5, >:
+Attribute: CommuteTime, Threshold: 1.5, <=:
+Attribute: WeAlcohol, Threshold: 3.5, <=:
+Attribute: FamRelQual, Threshold: 2.5, >:
+1
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, >:
+Attribute: Absences, Threshold: 6.5, <=:
+Attribute: Internet, Threshold: 0.5, >:
+Attribute: ParentGuard, Threshold: 0.5, >:
+Attribute: GoingOut, Threshold: 4.5, <=:
+Attribute: FamSupport, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 1.0, >:
+Attribute: FreeTime, Threshold: 1.5, >:
+Attribute: FreeTime, Threshold: 3.5, <=:
+Attribute: CommuteTime, Threshold: 2.5, <=:
+Attribute: FEdu, Threshold: 3.5, <=:
+Attribute: ParentsTogether, Threshold: 0.5, <=:
+Attribute: Health, Threshold: 3.0, >:
+Attribute: Absences, Threshold: 3.0, >:
+Attribute: Age, Threshold: 15.5, <=:
+0
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, <=:
+Attribute: Health, Threshold: 1.5, >:
+Attribute: Absences, Threshold: 5.0, <=:
+Attribute: Neighbourhood, Threshold: 0.5, >:
+Attribute: FamRelQual, Threshold: 4.5, <=:
+Attribute: Health, Threshold: 2.5, >:
+Attribute: FEdu, Threshold: 2.5, <=:
+1
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, >:
+Attribute: Absences, Threshold: 6.5, <=:
+Attribute: Internet, Threshold: 0.5, >:
+Attribute: ParentGuard, Threshold: 0.5, >:
+Attribute: GoingOut, Threshold: 4.5, <=:
+Attribute: FamSupport, Threshold: 0.5, >:
+Attribute: Health, Threshold: 4.0, >:
+Attribute: WorkTime, Threshold: 1.5, >:
+Attribute: FreeTime, Threshold: 3.0, >:
+Attribute: FamRelQual, Threshold: 4.0, >:
+0
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 0.5, >:
+Attribute: CommuteTime, Threshold: 1.5, <=:
+Attribute: WeAlcohol, Threshold: 3.5, <=:
+Attribute: FamRelQual, Threshold: 2.5, >:
+1
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 0.5, >:
+Attribute: CommuteTime, Threshold: 1.5, <=:
+Attribute: WeAlcohol, Threshold: 3.5, <=:
+Attribute: FamRelQual, Threshold: 2.5, >:
+1
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, >:
+Attribute: Absences, Threshold: 6.5, <=:
+Attribute: Internet, Threshold: 0.5, >:
+Attribute: ParentGuard, Threshold: 0.5, >:
+Attribute: GoingOut, Threshold: 4.5, <=:
+Attribute: FamSupport, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 1.0, >:
+Attribute: FreeTime, Threshold: 1.5, >:
+Attribute: FreeTime, Threshold: 3.5, <=:
+Attribute: CommuteTime, Threshold: 2.5, <=:
+Attribute: FEdu, Threshold: 3.5, >:
+Attribute: MEdu, Threshold: 3.0, >:
+1
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, >:
+Attribute: Absences, Threshold: 6.5, <=:
+Attribute: Internet, Threshold: 0.5, >:
+Attribute: ParentGuard, Threshold: 0.5, >:
+Attribute: GoingOut, Threshold: 4.5, <=:
+Attribute: FamSupport, Threshold: 0.5, >:
+Attribute: Health, Threshold: 4.0, <=:
+1
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, >:
+0
+
+Attribute: PastFails, Threshold: 0.5, >:
+Attribute: Age, Threshold: 18.5, >:
+Attribute: PastFails, Threshold: 2.5, >:
+0
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 0.5, >:
+Attribute: CommuteTime, Threshold: 1.5, >:
+Attribute: GoingOut, Threshold: 3.5, <=:
+Attribute: WeAlcohol, Threshold: 2.5, <=:
+Attribute: FEdu, Threshold: 0.5, <=:
+0
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 0.5, >:
+Attribute: CommuteTime, Threshold: 1.5, <=:
+Attribute: WeAlcohol, Threshold: 3.5, <=:
+Attribute: FamRelQual, Threshold: 2.5, >:
+1
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, <=:
+Attribute: Health, Threshold: 1.5, >:
+Attribute: Absences, Threshold: 5.0, <=:
+Attribute: Neighbourhood, Threshold: 0.5, >:
+Attribute: FamRelQual, Threshold: 4.5, >:
+1
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 0.5, >:
+Attribute: CommuteTime, Threshold: 1.5, >:
+Attribute: GoingOut, Threshold: 3.5, <=:
+Attribute: WeAlcohol, Threshold: 2.5, <=:
+Attribute: FEdu, Threshold: 0.5, >:
+1
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, >:
+Attribute: Absences, Threshold: 6.5, <=:
+Attribute: Internet, Threshold: 0.5, >:
+Attribute: ParentGuard, Threshold: 0.5, >:
+Attribute: GoingOut, Threshold: 4.5, <=:
+Attribute: FamSupport, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 1.0, <=:
+Attribute: WorkTime, Threshold: 3.5, <=:
+Attribute: ExtraSupport, Threshold: 0.5, >:
+Attribute: WdAlcohol, Threshold: 3.0, <=:
+Attribute: WeAlcohol, Threshold: 1.5, >:
+0
+
+Attribute: PastFails, Threshold: 0.5, >:
+Attribute: Age, Threshold: 18.5, >:
+Attribute: PastFails, Threshold: 2.5, <=:
+Attribute: WeAlcohol, Threshold: 4.0, <=:
+Attribute: Absences, Threshold: 14.5, >:
+Attribute: Absences, Threshold: 19.0, >:
+Attribute: Absences, Threshold: 30.0, >:
+Attribute: WorkTime, Threshold: 2.0, <=:
+0
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, >:
+Attribute: Absences, Threshold: 6.5, >:
+Attribute: WdAlcohol, Threshold: 4.0, <=:
+Attribute: Absences, Threshold: 8.5, <=:
+Attribute: WdAlcohol, Threshold: 2.5, <=:
+Attribute: Absences, Threshold: 7.5, <=:
+0
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, <=:
+Attribute: Age, Threshold: 16.5, <=:
+Attribute: FamRelQual, Threshold: 3.5, <=:
+1
+
+Attribute: PastFails, Threshold: 0.5, >:
+Attribute: Age, Threshold: 18.5, <=:
+Attribute: WdAlcohol, Threshold: 3.5, <=:
+Attribute: PastFails, Threshold: 1.5, <=:
+Attribute: Absences, Threshold: 10.0, <=:
+Attribute: Absences, Threshold: 7.0, <=:
+Attribute: HigherEd, Threshold: 0.5, >:
+Attribute: Absences, Threshold: 4.0, <=:
+Attribute: GoingOut, Threshold: 1.5, >:
+Attribute: MEdu, Threshold: 2.0, >:
+0
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 0.5, >:
+Attribute: CommuteTime, Threshold: 1.5, <=:
+Attribute: WeAlcohol, Threshold: 3.5, <=:
+Attribute: FamRelQual, Threshold: 2.5, >:
+1
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, >:
+Attribute: Absences, Threshold: 6.5, >:
+Attribute: WdAlcohol, Threshold: 4.0, >:
+Attribute: Absences, Threshold: 15.0, >:
+1
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 0.5, >:
+Attribute: CommuteTime, Threshold: 1.5, >:
+Attribute: GoingOut, Threshold: 3.5, >:
+0
+
+Attribute: PastFails, Threshold: 0.5, >:
+Attribute: Age, Threshold: 18.5, <=:
+Attribute: WdAlcohol, Threshold: 3.5, <=:
+Attribute: PastFails, Threshold: 1.5, <=:
+Attribute: Absences, Threshold: 10.0, >:
+0
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, <=:
+Attribute: Health, Threshold: 1.5, >:
+Attribute: Absences, Threshold: 5.0, >:
+Attribute: Age, Threshold: 17.5, <=:
+Attribute: FEdu, Threshold: 1.5, >:
+0
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, <=:
+Attribute: Age, Threshold: 16.5, >:
+Attribute: WorkTime, Threshold: 2.5, <=:
+0
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 0.5, >:
+Attribute: CommuteTime, Threshold: 1.5, <=:
+Attribute: WeAlcohol, Threshold: 3.5, <=:
+Attribute: FamRelQual, Threshold: 2.5, >:
+1
+
+Attribute: PastFails, Threshold: 0.5, >:
+Attribute: Age, Threshold: 18.5, <=:
+Attribute: WdAlcohol, Threshold: 3.5, <=:
+Attribute: PastFails, Threshold: 1.5, <=:
+Attribute: Absences, Threshold: 10.0, >:
+0
+
+Attribute: PastFails, Threshold: 0.5, >:
+Attribute: Age, Threshold: 18.5, <=:
+Attribute: WdAlcohol, Threshold: 3.5, >:
+1
+
+Attribute: PastFails, Threshold: 0.5, >:
+Attribute: Age, Threshold: 18.5, <=:
+Attribute: WdAlcohol, Threshold: 3.5, <=:
+Attribute: PastFails, Threshold: 1.5, >:
+0
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, <=:
+Attribute: Health, Threshold: 1.5, >:
+Attribute: Absences, Threshold: 5.0, <=:
+Attribute: Neighbourhood, Threshold: 0.5, <=:
+1
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, >:
+Attribute: Absences, Threshold: 6.5, >:
+Attribute: WdAlcohol, Threshold: 4.0, <=:
+Attribute: Absences, Threshold: 8.5, >:
+0
+
+Attribute: PastFails, Threshold: 0.5, >:
+Attribute: Age, Threshold: 18.5, <=:
+Attribute: WdAlcohol, Threshold: 3.5, <=:
+Attribute: PastFails, Threshold: 1.5, >:
+0
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, >:
+Attribute: Absences, Threshold: 6.5, <=:
+Attribute: Internet, Threshold: 0.5, >:
+Attribute: ParentGuard, Threshold: 0.5, >:
+Attribute: GoingOut, Threshold: 4.5, <=:
+Attribute: FamSupport, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 1.0, >:
+Attribute: FreeTime, Threshold: 1.5, <=:
+0
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 0.5, >:
+Attribute: CommuteTime, Threshold: 1.5, <=:
+Attribute: WeAlcohol, Threshold: 3.5, <=:
+Attribute: FamRelQual, Threshold: 2.5, >:
+1
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, >:
+Attribute: Absences, Threshold: 6.5, <=:
+Attribute: Internet, Threshold: 0.5, >:
+Attribute: ParentGuard, Threshold: 0.5, >:
+Attribute: GoingOut, Threshold: 4.5, <=:
+Attribute: FamSupport, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 1.0, >:
+Attribute: FreeTime, Threshold: 1.5, >:
+Attribute: FreeTime, Threshold: 3.5, >:
+1
+
+Attribute: PastFails, Threshold: 0.5, >:
+Attribute: Age, Threshold: 18.5, <=:
+Attribute: WdAlcohol, Threshold: 3.5, <=:
+Attribute: PastFails, Threshold: 1.5, <=:
+Attribute: Absences, Threshold: 10.0, <=:
+Attribute: Absences, Threshold: 7.0, <=:
+Attribute: HigherEd, Threshold: 0.5, >:
+Attribute: Absences, Threshold: 4.0, <=:
+Attribute: GoingOut, Threshold: 1.5, <=:
+0
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, <=:
+Attribute: Age, Threshold: 16.5, >:
+Attribute: WorkTime, Threshold: 2.5, <=:
+0
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, <=:
+Attribute: Health, Threshold: 1.5, >:
+Attribute: Absences, Threshold: 5.0, <=:
+Attribute: Neighbourhood, Threshold: 0.5, >:
+Attribute: FamRelQual, Threshold: 4.5, <=:
+Attribute: Health, Threshold: 2.5, >:
+Attribute: FEdu, Threshold: 2.5, <=:
+1
+
+Attribute: PastFails, Threshold: 0.5, >:
+Attribute: Age, Threshold: 18.5, <=:
+Attribute: WdAlcohol, Threshold: 3.5, <=:
+Attribute: PastFails, Threshold: 1.5, >:
+0
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, >:
+Attribute: Absences, Threshold: 6.5, >:
+Attribute: WdAlcohol, Threshold: 4.0, <=:
+Attribute: Absences, Threshold: 8.5, >:
+0
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, <=:
+Attribute: Age, Threshold: 16.5, <=:
+Attribute: FamRelQual, Threshold: 3.5, >:
+0
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, >:
+0
+
+Attribute: PastFails, Threshold: 0.5, >:
+Attribute: Age, Threshold: 18.5, >:
+Attribute: PastFails, Threshold: 2.5, <=:
+Attribute: WeAlcohol, Threshold: 4.0, <=:
+Attribute: Absences, Threshold: 14.5, <=:
+Attribute: Absences, Threshold: 8.0, <=:
+Attribute: Age, Threshold: 19.5, <=:
+Attribute: CommuteTime, Threshold: 2.0, >:
+0
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, <=:
+Attribute: Health, Threshold: 1.5, <=:
+1
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, <=:
+Attribute: Health, Threshold: 1.5, >:
+Attribute: Absences, Threshold: 5.0, <=:
+Attribute: Neighbourhood, Threshold: 0.5, >:
+Attribute: FamRelQual, Threshold: 4.5, <=:
+Attribute: Health, Threshold: 2.5, >:
+Attribute: FEdu, Threshold: 2.5, >:
+Attribute: FreeTime, Threshold: 4.5, <=:
+Attribute: ExtraCurric, Threshold: 0.5, <=:
+Attribute: GuardGender, Threshold: 0.5, <=:
+Attribute: FreeTime, Threshold: 2.5, <=:
+1
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, >:
+Attribute: Absences, Threshold: 6.5, <=:
+Attribute: Internet, Threshold: 0.5, >:
+Attribute: ParentGuard, Threshold: 0.5, >:
+Attribute: GoingOut, Threshold: 4.5, <=:
+Attribute: FamSupport, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 1.0, <=:
+Attribute: WorkTime, Threshold: 3.5, <=:
+Attribute: ExtraSupport, Threshold: 0.5, >:
+Attribute: WdAlcohol, Threshold: 3.0, <=:
+Attribute: WeAlcohol, Threshold: 1.5, <=:
+Attribute: MEdu, Threshold: 2.5, >:
+Attribute: Health, Threshold: 2.0, >:
+1
+
+Attribute: PastFails, Threshold: 0.5, >:
+Attribute: Age, Threshold: 18.5, <=:
+Attribute: WdAlcohol, Threshold: 3.5, <=:
+Attribute: PastFails, Threshold: 1.5, >:
+0
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 0.5, >:
+Attribute: CommuteTime, Threshold: 1.5, >:
+Attribute: GoingOut, Threshold: 3.5, <=:
+Attribute: WeAlcohol, Threshold: 2.5, <=:
+Attribute: FEdu, Threshold: 0.5, >:
+1
+
+Attribute: PastFails, Threshold: 0.5, >:
+Attribute: Age, Threshold: 18.5, >:
+Attribute: PastFails, Threshold: 2.5, <=:
+Attribute: WeAlcohol, Threshold: 4.0, <=:
+Attribute: Absences, Threshold: 14.5, >:
+Attribute: Absences, Threshold: 19.0, >:
+Attribute: Absences, Threshold: 30.0, <=:
+1
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 0.5, <=:
+Attribute: Romantic, Threshold: 0.5, >:
+Attribute: Health, Threshold: 3.5, >:
+Attribute: Health, Threshold: 4.5, <=:
+0
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 0.5, >:
+Attribute: CommuteTime, Threshold: 1.5, <=:
+Attribute: WeAlcohol, Threshold: 3.5, <=:
+Attribute: FamRelQual, Threshold: 2.5, <=:
+Attribute: MEdu, Threshold: 3.5, >:
+1
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, >:
+Attribute: Absences, Threshold: 6.5, <=:
+Attribute: Internet, Threshold: 0.5, >:
+Attribute: ParentGuard, Threshold: 0.5, >:
+Attribute: GoingOut, Threshold: 4.5, <=:
+Attribute: FamSupport, Threshold: 0.5, >:
+Attribute: Health, Threshold: 4.0, >:
+Attribute: WorkTime, Threshold: 1.5, >:
+Attribute: FreeTime, Threshold: 3.0, >:
+Attribute: FamRelQual, Threshold: 4.0, >:
+0
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, >:
+Attribute: Absences, Threshold: 6.5, <=:
+Attribute: Internet, Threshold: 0.5, <=:
+0
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, <=:
+Attribute: Health, Threshold: 1.5, >:
+Attribute: Absences, Threshold: 5.0, <=:
+Attribute: Neighbourhood, Threshold: 0.5, >:
+Attribute: FamRelQual, Threshold: 4.5, <=:
+Attribute: Health, Threshold: 2.5, >:
+Attribute: FEdu, Threshold: 2.5, >:
+Attribute: FreeTime, Threshold: 4.5, <=:
+Attribute: ExtraCurric, Threshold: 0.5, >:
+1
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, >:
+Attribute: Absences, Threshold: 6.5, <=:
+Attribute: Internet, Threshold: 0.5, >:
+Attribute: ParentGuard, Threshold: 0.5, >:
+Attribute: GoingOut, Threshold: 4.5, <=:
+Attribute: FamSupport, Threshold: 0.5, >:
+Attribute: Health, Threshold: 4.0, >:
+Attribute: WorkTime, Threshold: 1.5, >:
+Attribute: FreeTime, Threshold: 3.0, >:
+Attribute: FamRelQual, Threshold: 4.0, <=:
+1
+
+Attribute: PastFails, Threshold: 0.5, >:
+Attribute: Age, Threshold: 18.5, <=:
+Attribute: WdAlcohol, Threshold: 3.5, <=:
+Attribute: PastFails, Threshold: 1.5, <=:
+Attribute: Absences, Threshold: 10.0, <=:
+Attribute: Absences, Threshold: 7.0, <=:
+Attribute: HigherEd, Threshold: 0.5, <=:
+0
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 0.5, >:
+Attribute: CommuteTime, Threshold: 1.5, <=:
+Attribute: WeAlcohol, Threshold: 3.5, >:
+Attribute: WdAlcohol, Threshold: 1.5, <=:
+1
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 0.5, >:
+Attribute: CommuteTime, Threshold: 1.5, <=:
+Attribute: WeAlcohol, Threshold: 3.5, >:
+Attribute: WdAlcohol, Threshold: 1.5, >:
+Attribute: NurserySchool, Threshold: 0.5, <=:
+0
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, <=:
+Attribute: Health, Threshold: 1.5, <=:
+1
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, >:
+Attribute: Absences, Threshold: 6.5, <=:
+Attribute: Internet, Threshold: 0.5, >:
+Attribute: ParentGuard, Threshold: 0.5, >:
+Attribute: GoingOut, Threshold: 4.5, <=:
+Attribute: FamSupport, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 1.0, <=:
+Attribute: WorkTime, Threshold: 3.5, <=:
+Attribute: ExtraSupport, Threshold: 0.5, >:
+Attribute: WdAlcohol, Threshold: 3.0, <=:
+Attribute: WeAlcohol, Threshold: 1.5, <=:
+Attribute: MEdu, Threshold: 2.5, >:
+Attribute: Health, Threshold: 2.0, >:
+1
+
+Attribute: PastFails, Threshold: 0.5, >:
+Attribute: Age, Threshold: 18.5, <=:
+Attribute: WdAlcohol, Threshold: 3.5, <=:
+Attribute: PastFails, Threshold: 1.5, <=:
+Attribute: Absences, Threshold: 10.0, <=:
+Attribute: Absences, Threshold: 7.0, <=:
+Attribute: HigherEd, Threshold: 0.5, >:
+Attribute: Absences, Threshold: 4.0, <=:
+Attribute: GoingOut, Threshold: 1.5, >:
+Attribute: MEdu, Threshold: 2.0, >:
+0
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, >:
+Attribute: Absences, Threshold: 6.5, <=:
+Attribute: Internet, Threshold: 0.5, >:
+Attribute: ParentGuard, Threshold: 0.5, >:
+Attribute: GoingOut, Threshold: 4.5, <=:
+Attribute: FamSupport, Threshold: 0.5, >:
+Attribute: Health, Threshold: 4.0, <=:
+1
+
+Attribute: PastFails, Threshold: 0.5, >:
+Attribute: Age, Threshold: 18.5, >:
+Attribute: PastFails, Threshold: 2.5, >:
+0
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, <=:
+Attribute: Health, Threshold: 1.5, >:
+Attribute: Absences, Threshold: 5.0, <=:
+Attribute: Neighbourhood, Threshold: 0.5, >:
+Attribute: FamRelQual, Threshold: 4.5, <=:
+Attribute: Health, Threshold: 2.5, >:
+Attribute: FEdu, Threshold: 2.5, >:
+Attribute: FreeTime, Threshold: 4.5, <=:
+Attribute: ExtraCurric, Threshold: 0.5, <=:
+Attribute: GuardGender, Threshold: 0.5, <=:
+Attribute: FreeTime, Threshold: 2.5, >:
+Attribute: Sex, Threshold: 0.5, >:
+0
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, <=:
+Attribute: Health, Threshold: 1.5, >:
+Attribute: Absences, Threshold: 5.0, <=:
+Attribute: Neighbourhood, Threshold: 0.5, >:
+Attribute: FamRelQual, Threshold: 4.5, <=:
+Attribute: Health, Threshold: 2.5, >:
+Attribute: FEdu, Threshold: 2.5, >:
+Attribute: FreeTime, Threshold: 4.5, <=:
+Attribute: ExtraCurric, Threshold: 0.5, <=:
+Attribute: GuardGender, Threshold: 0.5, <=:
+Attribute: FreeTime, Threshold: 2.5, >:
+Attribute: Sex, Threshold: 0.5, >:
+0
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, <=:
+Attribute: Health, Threshold: 1.5, >:
+Attribute: Absences, Threshold: 5.0, >:
+Attribute: Age, Threshold: 17.5, <=:
+Attribute: FEdu, Threshold: 1.5, >:
+0
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, >:
+Attribute: Absences, Threshold: 6.5, <=:
+Attribute: Internet, Threshold: 0.5, >:
+Attribute: ParentGuard, Threshold: 0.5, >:
+Attribute: GoingOut, Threshold: 4.5, <=:
+Attribute: FamSupport, Threshold: 0.5, >:
+Attribute: Health, Threshold: 4.0, <=:
+1
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, >:
+Attribute: Absences, Threshold: 6.5, <=:
+Attribute: Internet, Threshold: 0.5, >:
+Attribute: ParentGuard, Threshold: 0.5, >:
+Attribute: GoingOut, Threshold: 4.5, <=:
+Attribute: FamSupport, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 1.0, <=:
+Attribute: WorkTime, Threshold: 3.5, <=:
+Attribute: ExtraSupport, Threshold: 0.5, >:
+Attribute: WdAlcohol, Threshold: 3.0, <=:
+Attribute: WeAlcohol, Threshold: 1.5, <=:
+Attribute: MEdu, Threshold: 2.5, >:
+Attribute: Health, Threshold: 2.0, <=:
+Attribute: FamRelQual, Threshold: 3.0, >:
+0
+
+Attribute: PastFails, Threshold: 0.5, >:
+Attribute: Age, Threshold: 18.5, <=:
+Attribute: WdAlcohol, Threshold: 3.5, <=:
+Attribute: PastFails, Threshold: 1.5, <=:
+Attribute: Absences, Threshold: 10.0, >:
+0
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, <=:
+Attribute: Age, Threshold: 16.5, >:
+Attribute: WorkTime, Threshold: 2.5, <=:
+0
+
+Attribute: PastFails, Threshold: 0.5, >:
+Attribute: Age, Threshold: 18.5, <=:
+Attribute: WdAlcohol, Threshold: 3.5, <=:
+Attribute: PastFails, Threshold: 1.5, <=:
+Attribute: Absences, Threshold: 10.0, <=:
+Attribute: Absences, Threshold: 7.0, <=:
+Attribute: HigherEd, Threshold: 0.5, >:
+Attribute: Absences, Threshold: 4.0, >:
+Attribute: GoingOut, Threshold: 3.0, >:
+Attribute: WeAlcohol, Threshold: 4.5, >:
+1
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 0.5, >:
+Attribute: CommuteTime, Threshold: 1.5, <=:
+Attribute: WeAlcohol, Threshold: 3.5, <=:
+Attribute: FamRelQual, Threshold: 2.5, >:
+1
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 0.5, >:
+Attribute: CommuteTime, Threshold: 1.5, <=:
+Attribute: WeAlcohol, Threshold: 3.5, <=:
+Attribute: FamRelQual, Threshold: 2.5, >:
+1
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, <=:
+Attribute: Health, Threshold: 1.5, >:
+Attribute: Absences, Threshold: 5.0, >:
+Attribute: Age, Threshold: 17.5, >:
+1
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, <=:
+Attribute: Health, Threshold: 1.5, >:
+Attribute: Absences, Threshold: 5.0, >:
+Attribute: Age, Threshold: 17.5, <=:
+Attribute: FEdu, Threshold: 1.5, >:
+0
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 0.5, >:
+Attribute: CommuteTime, Threshold: 1.5, <=:
+Attribute: WeAlcohol, Threshold: 3.5, <=:
+Attribute: FamRelQual, Threshold: 2.5, >:
+1
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 0.5, >:
+Attribute: CommuteTime, Threshold: 1.5, <=:
+Attribute: WeAlcohol, Threshold: 3.5, >:
+Attribute: WdAlcohol, Threshold: 1.5, >:
+Attribute: NurserySchool, Threshold: 0.5, <=:
+0
+
+Attribute: PastFails, Threshold: 0.5, >:
+Attribute: Age, Threshold: 18.5, <=:
+Attribute: WdAlcohol, Threshold: 3.5, <=:
+Attribute: PastFails, Threshold: 1.5, <=:
+Attribute: Absences, Threshold: 10.0, >:
+0
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, >:
+Attribute: Absences, Threshold: 6.5, >:
+Attribute: WdAlcohol, Threshold: 4.0, <=:
+Attribute: Absences, Threshold: 8.5, >:
+0
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, <=:
+Attribute: Health, Threshold: 1.5, >:
+Attribute: Absences, Threshold: 5.0, <=:
+Attribute: Neighbourhood, Threshold: 0.5, >:
+Attribute: FamRelQual, Threshold: 4.5, <=:
+Attribute: Health, Threshold: 2.5, >:
+Attribute: FEdu, Threshold: 2.5, >:
+Attribute: FreeTime, Threshold: 4.5, <=:
+Attribute: ExtraCurric, Threshold: 0.5, >:
+1
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, <=:
+Attribute: Health, Threshold: 1.5, >:
+Attribute: Absences, Threshold: 5.0, >:
+Attribute: Age, Threshold: 17.5, <=:
+Attribute: FEdu, Threshold: 1.5, >:
+0
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, <=:
+Attribute: Health, Threshold: 1.5, >:
+Attribute: Absences, Threshold: 5.0, >:
+Attribute: Age, Threshold: 17.5, >:
+1
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 0.5, >:
+Attribute: CommuteTime, Threshold: 1.5, <=:
+Attribute: WeAlcohol, Threshold: 3.5, <=:
+Attribute: FamRelQual, Threshold: 2.5, >:
+1
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, <=:
+Attribute: Age, Threshold: 16.5, <=:
+Attribute: FamRelQual, Threshold: 3.5, <=:
+1
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, >:
+Attribute: Absences, Threshold: 6.5, <=:
+Attribute: Internet, Threshold: 0.5, <=:
+0
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 0.5, <=:
+Attribute: Romantic, Threshold: 0.5, <=:
+0
+
+Attribute: PastFails, Threshold: 0.5, >:
+Attribute: Age, Threshold: 18.5, >:
+Attribute: PastFails, Threshold: 2.5, <=:
+Attribute: WeAlcohol, Threshold: 4.0, <=:
+Attribute: Absences, Threshold: 14.5, >:
+Attribute: Absences, Threshold: 19.0, <=:
+0
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, >:
+Attribute: Absences, Threshold: 6.5, <=:
+Attribute: Internet, Threshold: 0.5, >:
+Attribute: ParentGuard, Threshold: 0.5, >:
+Attribute: GoingOut, Threshold: 4.5, <=:
+Attribute: FamSupport, Threshold: 0.5, >:
+Attribute: Health, Threshold: 4.0, <=:
+1
+
+Attribute: PastFails, Threshold: 0.5, >:
+Attribute: Age, Threshold: 18.5, <=:
+Attribute: WdAlcohol, Threshold: 3.5, <=:
+Attribute: PastFails, Threshold: 1.5, <=:
+Attribute: Absences, Threshold: 10.0, <=:
+Attribute: Absences, Threshold: 7.0, <=:
+Attribute: HigherEd, Threshold: 0.5, <=:
+0
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 0.5, >:
+Attribute: CommuteTime, Threshold: 1.5, <=:
+Attribute: WeAlcohol, Threshold: 3.5, <=:
+Attribute: FamRelQual, Threshold: 2.5, >:
+1
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, <=:
+Attribute: Health, Threshold: 1.5, <=:
+1
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, <=:
+Attribute: Health, Threshold: 1.5, >:
+Attribute: Absences, Threshold: 5.0, <=:
+Attribute: Neighbourhood, Threshold: 0.5, >:
+Attribute: FamRelQual, Threshold: 4.5, <=:
+Attribute: Health, Threshold: 2.5, >:
+Attribute: FEdu, Threshold: 2.5, >:
+Attribute: FreeTime, Threshold: 4.5, <=:
+Attribute: ExtraCurric, Threshold: 0.5, >:
+1
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, <=:
+Attribute: Health, Threshold: 1.5, >:
+Attribute: Absences, Threshold: 5.0, <=:
+Attribute: Neighbourhood, Threshold: 0.5, >:
+Attribute: FamRelQual, Threshold: 4.5, >:
+1
+
+Attribute: PastFails, Threshold: 0.5, >:
+Attribute: Age, Threshold: 18.5, >:
+Attribute: PastFails, Threshold: 2.5, <=:
+Attribute: WeAlcohol, Threshold: 4.0, <=:
+Attribute: Absences, Threshold: 14.5, >:
+Attribute: Absences, Threshold: 19.0, <=:
+0
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, <=:
+Attribute: Health, Threshold: 1.5, >:
+Attribute: Absences, Threshold: 5.0, >:
+Attribute: Age, Threshold: 17.5, <=:
+Attribute: FEdu, Threshold: 1.5, <=:
+Attribute: FamSize, Threshold: 0.5, >:
+1
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, >:
+Attribute: Absences, Threshold: 6.5, <=:
+Attribute: Internet, Threshold: 0.5, >:
+Attribute: ParentGuard, Threshold: 0.5, >:
+Attribute: GoingOut, Threshold: 4.5, <=:
+Attribute: FamSupport, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 1.0, >:
+Attribute: FreeTime, Threshold: 1.5, >:
+Attribute: FreeTime, Threshold: 3.5, <=:
+Attribute: CommuteTime, Threshold: 2.5, <=:
+Attribute: FEdu, Threshold: 3.5, >:
+Attribute: MEdu, Threshold: 3.0, >:
+1
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 0.5, >:
+Attribute: CommuteTime, Threshold: 1.5, >:
+Attribute: GoingOut, Threshold: 3.5, >:
+0
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, >:
+Attribute: Absences, Threshold: 6.5, >:
+Attribute: WdAlcohol, Threshold: 4.0, >:
+Attribute: Absences, Threshold: 15.0, <=:
+0
+
+Attribute: PastFails, Threshold: 0.5, >:
+Attribute: Age, Threshold: 18.5, <=:
+Attribute: WdAlcohol, Threshold: 3.5, <=:
+Attribute: PastFails, Threshold: 1.5, <=:
+Attribute: Absences, Threshold: 10.0, <=:
+Attribute: Absences, Threshold: 7.0, <=:
+Attribute: HigherEd, Threshold: 0.5, >:
+Attribute: Absences, Threshold: 4.0, >:
+Attribute: GoingOut, Threshold: 3.0, >:
+Attribute: WeAlcohol, Threshold: 4.5, <=:
+0
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, >:
+Attribute: Absences, Threshold: 6.5, <=:
+Attribute: Internet, Threshold: 0.5, >:
+Attribute: ParentGuard, Threshold: 0.5, >:
+Attribute: GoingOut, Threshold: 4.5, >:
+1
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, <=:
+Attribute: Health, Threshold: 1.5, >:
+Attribute: Absences, Threshold: 5.0, >:
+Attribute: Age, Threshold: 17.5, <=:
+Attribute: FEdu, Threshold: 1.5, >:
+0
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, <=:
+Attribute: Health, Threshold: 1.5, >:
+Attribute: Absences, Threshold: 5.0, <=:
+Attribute: Neighbourhood, Threshold: 0.5, <=:
+1
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, <=:
+Attribute: Age, Threshold: 16.5, >:
+Attribute: WorkTime, Threshold: 2.5, <=:
+0
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, >:
+Attribute: Absences, Threshold: 6.5, <=:
+Attribute: Internet, Threshold: 0.5, >:
+Attribute: ParentGuard, Threshold: 0.5, >:
+Attribute: GoingOut, Threshold: 4.5, <=:
+Attribute: FamSupport, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 1.0, <=:
+Attribute: WorkTime, Threshold: 3.5, <=:
+Attribute: ExtraSupport, Threshold: 0.5, >:
+Attribute: WdAlcohol, Threshold: 3.0, <=:
+Attribute: WeAlcohol, Threshold: 1.5, <=:
+Attribute: MEdu, Threshold: 2.5, <=:
+0
+
+Attribute: PastFails, Threshold: 0.5, >:
+Attribute: Age, Threshold: 18.5, <=:
+Attribute: WdAlcohol, Threshold: 3.5, <=:
+Attribute: PastFails, Threshold: 1.5, <=:
+Attribute: Absences, Threshold: 10.0, >:
+0
+
+Attribute: PastFails, Threshold: 0.5, >:
+Attribute: Age, Threshold: 18.5, <=:
+Attribute: WdAlcohol, Threshold: 3.5, <=:
+Attribute: PastFails, Threshold: 1.5, >:
+0
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, >:
+Attribute: Absences, Threshold: 6.5, <=:
+Attribute: Internet, Threshold: 0.5, >:
+Attribute: ParentGuard, Threshold: 0.5, >:
+Attribute: GoingOut, Threshold: 4.5, <=:
+Attribute: FamSupport, Threshold: 0.5, >:
+Attribute: Health, Threshold: 4.0, <=:
+1
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 0.5, >:
+Attribute: CommuteTime, Threshold: 1.5, >:
+Attribute: GoingOut, Threshold: 3.5, <=:
+Attribute: WeAlcohol, Threshold: 2.5, <=:
+Attribute: FEdu, Threshold: 0.5, >:
+1
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, <=:
+Attribute: Health, Threshold: 1.5, >:
+Attribute: Absences, Threshold: 5.0, <=:
+Attribute: Neighbourhood, Threshold: 0.5, >:
+Attribute: FamRelQual, Threshold: 4.5, <=:
+Attribute: Health, Threshold: 2.5, >:
+Attribute: FEdu, Threshold: 2.5, >:
+Attribute: FreeTime, Threshold: 4.5, <=:
+Attribute: ExtraCurric, Threshold: 0.5, <=:
+Attribute: GuardGender, Threshold: 0.5, <=:
+Attribute: FreeTime, Threshold: 2.5, >:
+Attribute: Sex, Threshold: 0.5, <=:
+Attribute: SchoolAttended, Threshold: 0.5, >:
+1
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, >:
+Attribute: Absences, Threshold: 6.5, <=:
+Attribute: Internet, Threshold: 0.5, >:
+Attribute: ParentGuard, Threshold: 0.5, <=:
+0
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, >:
+Attribute: Absences, Threshold: 6.5, <=:
+Attribute: Internet, Threshold: 0.5, >:
+Attribute: ParentGuard, Threshold: 0.5, <=:
+0
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, >:
+Attribute: Absences, Threshold: 6.5, <=:
+Attribute: Internet, Threshold: 0.5, <=:
+0
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, >:
+Attribute: Absences, Threshold: 6.5, <=:
+Attribute: Internet, Threshold: 0.5, >:
+Attribute: ParentGuard, Threshold: 0.5, >:
+Attribute: GoingOut, Threshold: 4.5, <=:
+Attribute: FamSupport, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 1.0, >:
+Attribute: FreeTime, Threshold: 1.5, >:
+Attribute: FreeTime, Threshold: 3.5, <=:
+Attribute: CommuteTime, Threshold: 2.5, <=:
+Attribute: FEdu, Threshold: 3.5, >:
+Attribute: MEdu, Threshold: 3.0, >:
+1
+
+Attribute: PastFails, Threshold: 0.5, >:
+Attribute: Age, Threshold: 18.5, >:
+Attribute: PastFails, Threshold: 2.5, <=:
+Attribute: WeAlcohol, Threshold: 4.0, >:
+0
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 0.5, <=:
+Attribute: Romantic, Threshold: 0.5, <=:
+0
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 0.5, >:
+Attribute: CommuteTime, Threshold: 1.5, >:
+Attribute: GoingOut, Threshold: 3.5, <=:
+Attribute: WeAlcohol, Threshold: 2.5, <=:
+Attribute: FEdu, Threshold: 0.5, >:
+1
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 0.5, >:
+Attribute: CommuteTime, Threshold: 1.5, <=:
+Attribute: WeAlcohol, Threshold: 3.5, <=:
+Attribute: FamRelQual, Threshold: 2.5, >:
+1
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, <=:
+Attribute: Health, Threshold: 1.5, >:
+Attribute: Absences, Threshold: 5.0, <=:
+Attribute: Neighbourhood, Threshold: 0.5, >:
+Attribute: FamRelQual, Threshold: 4.5, <=:
+Attribute: Health, Threshold: 2.5, >:
+Attribute: FEdu, Threshold: 2.5, >:
+Attribute: FreeTime, Threshold: 4.5, >:
+0
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 0.5, <=:
+Attribute: Romantic, Threshold: 0.5, >:
+Attribute: Health, Threshold: 3.5, >:
+Attribute: Health, Threshold: 4.5, >:
+Attribute: FEdu, Threshold: 3.0, <=:
+1
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 0.5, >:
+Attribute: CommuteTime, Threshold: 1.5, <=:
+Attribute: WeAlcohol, Threshold: 3.5, <=:
+Attribute: FamRelQual, Threshold: 2.5, >:
+1
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, <=:
+Attribute: Health, Threshold: 1.5, >:
+Attribute: Absences, Threshold: 5.0, <=:
+Attribute: Neighbourhood, Threshold: 0.5, >:
+Attribute: FamRelQual, Threshold: 4.5, >:
+1
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, <=:
+Attribute: Health, Threshold: 1.5, >:
+Attribute: Absences, Threshold: 5.0, <=:
+Attribute: Neighbourhood, Threshold: 0.5, >:
+Attribute: FamRelQual, Threshold: 4.5, <=:
+Attribute: Health, Threshold: 2.5, >:
+Attribute: FEdu, Threshold: 2.5, >:
+Attribute: FreeTime, Threshold: 4.5, <=:
+Attribute: ExtraCurric, Threshold: 0.5, <=:
+Attribute: GuardGender, Threshold: 0.5, <=:
+Attribute: FreeTime, Threshold: 2.5, >:
+Attribute: Sex, Threshold: 0.5, <=:
+Attribute: SchoolAttended, Threshold: 0.5, >:
+1
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 0.5, <=:
+Attribute: Romantic, Threshold: 0.5, >:
+Attribute: Health, Threshold: 3.5, <=:
+1
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, <=:
+Attribute: Age, Threshold: 16.5, >:
+Attribute: WorkTime, Threshold: 2.5, <=:
+0
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, >:
+Attribute: Absences, Threshold: 6.5, <=:
+Attribute: Internet, Threshold: 0.5, >:
+Attribute: ParentGuard, Threshold: 0.5, >:
+Attribute: GoingOut, Threshold: 4.5, <=:
+Attribute: FamSupport, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 1.0, <=:
+Attribute: WorkTime, Threshold: 3.5, >:
+1
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, <=:
+Attribute: Health, Threshold: 1.5, <=:
+1
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 0.5, >:
+Attribute: CommuteTime, Threshold: 1.5, >:
+Attribute: GoingOut, Threshold: 3.5, <=:
+Attribute: WeAlcohol, Threshold: 2.5, >:
+0
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 0.5, >:
+Attribute: CommuteTime, Threshold: 1.5, <=:
+Attribute: WeAlcohol, Threshold: 3.5, <=:
+Attribute: FamRelQual, Threshold: 2.5, >:
+1
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, <=:
+Attribute: Age, Threshold: 16.5, >:
+Attribute: WorkTime, Threshold: 2.5, <=:
+0
+
+Attribute: PastFails, Threshold: 0.5, >:
+Attribute: Age, Threshold: 18.5, >:
+Attribute: PastFails, Threshold: 2.5, <=:
+Attribute: WeAlcohol, Threshold: 4.0, <=:
+Attribute: Absences, Threshold: 14.5, <=:
+Attribute: Absences, Threshold: 8.0, >:
+1
+
+Attribute: PastFails, Threshold: 0.5, >:
+Attribute: Age, Threshold: 18.5, >:
+Attribute: PastFails, Threshold: 2.5, <=:
+Attribute: WeAlcohol, Threshold: 4.0, <=:
+Attribute: Absences, Threshold: 14.5, >:
+Attribute: Absences, Threshold: 19.0, >:
+Attribute: Absences, Threshold: 30.0, <=:
+1
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, >:
+0
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 0.5, >:
+Attribute: CommuteTime, Threshold: 1.5, <=:
+Attribute: WeAlcohol, Threshold: 3.5, <=:
+Attribute: FamRelQual, Threshold: 2.5, >:
+1
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, <=:
+Attribute: Health, Threshold: 1.5, >:
+Attribute: Absences, Threshold: 5.0, <=:
+Attribute: Neighbourhood, Threshold: 0.5, <=:
+1
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, <=:
+Attribute: Health, Threshold: 1.5, >:
+Attribute: Absences, Threshold: 5.0, <=:
+Attribute: Neighbourhood, Threshold: 0.5, >:
+Attribute: FamRelQual, Threshold: 4.5, <=:
+Attribute: Health, Threshold: 2.5, >:
+Attribute: FEdu, Threshold: 2.5, >:
+Attribute: FreeTime, Threshold: 4.5, <=:
+Attribute: ExtraCurric, Threshold: 0.5, >:
+1
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, <=:
+Attribute: Health, Threshold: 1.5, <=:
+1
+
+Attribute: PastFails, Threshold: 0.5, >:
+Attribute: Age, Threshold: 18.5, <=:
+Attribute: WdAlcohol, Threshold: 3.5, <=:
+Attribute: PastFails, Threshold: 1.5, <=:
+Attribute: Absences, Threshold: 10.0, <=:
+Attribute: Absences, Threshold: 7.0, <=:
+Attribute: HigherEd, Threshold: 0.5, >:
+Attribute: Absences, Threshold: 4.0, >:
+Attribute: GoingOut, Threshold: 3.0, <=:
+1
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, >:
+Attribute: Absences, Threshold: 6.5, <=:
+Attribute: Internet, Threshold: 0.5, >:
+Attribute: ParentGuard, Threshold: 0.5, >:
+Attribute: GoingOut, Threshold: 4.5, <=:
+Attribute: FamSupport, Threshold: 0.5, >:
+Attribute: Health, Threshold: 4.0, <=:
+1
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 0.5, >:
+Attribute: CommuteTime, Threshold: 1.5, >:
+Attribute: GoingOut, Threshold: 3.5, <=:
+Attribute: WeAlcohol, Threshold: 2.5, >:
+0
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 0.5, <=:
+Attribute: Romantic, Threshold: 0.5, <=:
+0
+
+Attribute: PastFails, Threshold: 0.5, >:
+Attribute: Age, Threshold: 18.5, >:
+Attribute: PastFails, Threshold: 2.5, <=:
+Attribute: WeAlcohol, Threshold: 4.0, <=:
+Attribute: Absences, Threshold: 14.5, <=:
+Attribute: Absences, Threshold: 8.0, <=:
+Attribute: Age, Threshold: 19.5, <=:
+Attribute: CommuteTime, Threshold: 2.0, <=:
+Attribute: Absences, Threshold: 1.5, >:
+1
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, <=:
+Attribute: Health, Threshold: 1.5, >:
+Attribute: Absences, Threshold: 5.0, >:
+Attribute: Age, Threshold: 17.5, <=:
+Attribute: FEdu, Threshold: 1.5, >:
+0
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, >:
+Attribute: Absences, Threshold: 6.5, <=:
+Attribute: Internet, Threshold: 0.5, >:
+Attribute: ParentGuard, Threshold: 0.5, >:
+Attribute: GoingOut, Threshold: 4.5, <=:
+Attribute: FamSupport, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 1.0, <=:
+Attribute: WorkTime, Threshold: 3.5, <=:
+Attribute: ExtraSupport, Threshold: 0.5, >:
+Attribute: WdAlcohol, Threshold: 3.0, <=:
+Attribute: WeAlcohol, Threshold: 1.5, >:
+0
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, <=:
+Attribute: Health, Threshold: 1.5, >:
+Attribute: Absences, Threshold: 5.0, >:
+Attribute: Age, Threshold: 17.5, <=:
+Attribute: FEdu, Threshold: 1.5, <=:
+Attribute: FamSize, Threshold: 0.5, <=:
+0
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, <=:
+Attribute: Health, Threshold: 1.5, >:
+Attribute: Absences, Threshold: 5.0, >:
+Attribute: Age, Threshold: 17.5, <=:
+Attribute: FEdu, Threshold: 1.5, <=:
+Attribute: FamSize, Threshold: 0.5, >:
+1
+
+Attribute: PastFails, Threshold: 0.5, >:
+Attribute: Age, Threshold: 18.5, <=:
+Attribute: WdAlcohol, Threshold: 3.5, <=:
+Attribute: PastFails, Threshold: 1.5, >:
+0
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, >:
+Attribute: Absences, Threshold: 6.5, <=:
+Attribute: Internet, Threshold: 0.5, >:
+Attribute: ParentGuard, Threshold: 0.5, >:
+Attribute: GoingOut, Threshold: 4.5, <=:
+Attribute: FamSupport, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 1.0, >:
+Attribute: FreeTime, Threshold: 1.5, >:
+Attribute: FreeTime, Threshold: 3.5, >:
+1
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 0.5, >:
+Attribute: CommuteTime, Threshold: 1.5, <=:
+Attribute: WeAlcohol, Threshold: 3.5, <=:
+Attribute: FamRelQual, Threshold: 2.5, >:
+1
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, >:
+Attribute: Absences, Threshold: 6.5, <=:
+Attribute: Internet, Threshold: 0.5, >:
+Attribute: ParentGuard, Threshold: 0.5, >:
+Attribute: GoingOut, Threshold: 4.5, <=:
+Attribute: FamSupport, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 1.0, <=:
+Attribute: WorkTime, Threshold: 3.5, <=:
+Attribute: ExtraSupport, Threshold: 0.5, >:
+Attribute: WdAlcohol, Threshold: 3.0, <=:
+Attribute: WeAlcohol, Threshold: 1.5, >:
+0
+
+Attribute: PastFails, Threshold: 0.5, >:
+Attribute: Age, Threshold: 18.5, <=:
+Attribute: WdAlcohol, Threshold: 3.5, <=:
+Attribute: PastFails, Threshold: 1.5, >:
+0
+
+Attribute: PastFails, Threshold: 0.5, >:
+Attribute: Age, Threshold: 18.5, >:
+Attribute: PastFails, Threshold: 2.5, <=:
+Attribute: WeAlcohol, Threshold: 4.0, <=:
+Attribute: Absences, Threshold: 14.5, <=:
+Attribute: Absences, Threshold: 8.0, >:
+1
+
+Attribute: PastFails, Threshold: 0.5, >:
+Attribute: Age, Threshold: 18.5, <=:
+Attribute: WdAlcohol, Threshold: 3.5, <=:
+Attribute: PastFails, Threshold: 1.5, <=:
+Attribute: Absences, Threshold: 10.0, <=:
+Attribute: Absences, Threshold: 7.0, <=:
+Attribute: HigherEd, Threshold: 0.5, >:
+Attribute: Absences, Threshold: 4.0, <=:
+Attribute: GoingOut, Threshold: 1.5, >:
+Attribute: MEdu, Threshold: 2.0, <=:
+0
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 0.5, <=:
+Attribute: Romantic, Threshold: 0.5, >:
+Attribute: Health, Threshold: 3.5, <=:
+1
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, >:
+0
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, >:
+Attribute: Absences, Threshold: 6.5, <=:
+Attribute: Internet, Threshold: 0.5, >:
+Attribute: ParentGuard, Threshold: 0.5, >:
+Attribute: GoingOut, Threshold: 4.5, <=:
+Attribute: FamSupport, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 1.0, >:
+Attribute: FreeTime, Threshold: 1.5, >:
+Attribute: FreeTime, Threshold: 3.5, <=:
+Attribute: CommuteTime, Threshold: 2.5, <=:
+Attribute: FEdu, Threshold: 3.5, <=:
+Attribute: ParentsTogether, Threshold: 0.5, >:
+0
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 0.5, >:
+Attribute: CommuteTime, Threshold: 1.5, <=:
+Attribute: WeAlcohol, Threshold: 3.5, <=:
+Attribute: FamRelQual, Threshold: 2.5, >:
+1
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 0.5, >:
+Attribute: CommuteTime, Threshold: 1.5, <=:
+Attribute: WeAlcohol, Threshold: 3.5, <=:
+Attribute: FamRelQual, Threshold: 2.5, >:
+1
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, >:
+Attribute: MEdu, Threshold: 1.5, >:
+Attribute: ExtraPaidClasses, Threshold: 0.5, >:
+Attribute: Absences, Threshold: 6.5, <=:
+Attribute: Internet, Threshold: 0.5, >:
+Attribute: ParentGuard, Threshold: 0.5, >:
+Attribute: GoingOut, Threshold: 4.5, <=:
+Attribute: FamSupport, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 1.0, <=:
+Attribute: WorkTime, Threshold: 3.5, <=:
+Attribute: ExtraSupport, Threshold: 0.5, <=:
+1
+
+Attribute: PastFails, Threshold: 0.5, <=:
+Attribute: Absences, Threshold: 21.5, <=:
+Attribute: CommuteTime, Threshold: 3.5, <=:
+Attribute: GoingOut, Threshold: 2.5, <=:
+Attribute: Health, Threshold: 1.5, >:
+Attribute: Absences, Threshold: 5.0, <=:
+Attribute: Neighbourhood, Threshold: 0.5, >:
+Attribute: FamRelQual, Threshold: 4.5, <=:
+Attribute: Health, Threshold: 2.5, >:
+Attribute: FEdu, Threshold: 2.5, >:
+Attribute: FreeTime, Threshold: 4.5, <=:
+Attribute: ExtraCurric, Threshold: 0.5, <=:
+Attribute: GuardGender, Threshold: 0.5, <=:
+Attribute: FreeTime, Threshold: 2.5, >:
+Attribute: Sex, Threshold: 0.5, <=:
+Attribute: SchoolAttended, Threshold: 0.5, <=:
+0
+
+Attribute: PastFails, Threshold: 0.5, >:
+Attribute: Age, Threshold: 18.5, <=:
+Attribute: WdAlcohol, Threshold: 3.5, <=:
+Attribute: PastFails, Threshold: 1.5, <=:
+Attribute: Absences, Threshold: 10.0, <=:
+Attribute: Absences, Threshold: 7.0, <=:
+Attribute: HigherEd, Threshold: 0.5, >:
+Attribute: Absences, Threshold: 4.0, <=:
+Attribute: GoingOut, Threshold: 1.5, <=:
+0
+

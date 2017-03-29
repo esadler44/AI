@@ -1,0 +1,9 @@
+Attribute: Endotoxin, Threshold: 13.425
+L: Attribute: K, Threshold: 3.55
+L: Attribute: Na, Threshold: 141.5
+L: colic.
+R: healthy.
+R: Attribute: GLDH, Threshold: 24.65
+L: healthy.
+R: colic.
+R: colic.

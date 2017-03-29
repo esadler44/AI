@@ -1,0 +1,181 @@
+Attribute: PastFails, Threshold: 0.5
+L: Attribute: Absences, Threshold: 21.5
+L: Attribute: CommuteTime, Threshold: 3.5
+L: Attribute: GoingOut, Threshold: 2.5
+L: Attribute: Health, Threshold: 1.5
+L: 1
+R: Attribute: Absences, Threshold: 5.0
+L: Attribute: Neighbourhood, Threshold: 0.5
+L: 1
+R: Attribute: FamRelQual, Threshold: 4.5
+L: Attribute: Health, Threshold: 2.5
+L: 0
+R: Attribute: FEdu, Threshold: 2.5
+L: 1
+R: Attribute: FreeTime, Threshold: 4.5
+L: Attribute: ExtraCurric, Threshold: 0.5
+L: Attribute: GuardGender, Threshold: 0.5
+L: Attribute: FreeTime, Threshold: 2.5
+L: 1
+R: Attribute: Sex, Threshold: 0.5
+L: Attribute: SchoolAttended, Threshold: 0.5
+L: 0
+R: 1
+R: 0
+R: 0
+R: 1
+R: 0
+R: 1
+R: Attribute: Age, Threshold: 17.5
+L: Attribute: FEdu, Threshold: 1.5
+L: Attribute: FamSize, Threshold: 0.5
+L: 0
+R: 1
+R: 0
+R: 1
+R: Attribute: MEdu, Threshold: 1.5
+L: Attribute: Age, Threshold: 16.5
+L: Attribute: FamRelQual, Threshold: 3.5
+L: 1
+R: 0
+R: Attribute: WorkTime, Threshold: 2.5
+L: 0
+R: 1
+R: Attribute: ExtraPaidClasses, Threshold: 0.5
+L: Attribute: Absences, Threshold: 0.5
+L: Attribute: Romantic, Threshold: 0.5
+L: 0
+R: Attribute: Health, Threshold: 3.5
+L: 1
+R: Attribute: Health, Threshold: 4.5
+L: 0
+R: Attribute: FEdu, Threshold: 3.0
+L: 1
+R: 0
+R: Attribute: CommuteTime, Threshold: 1.5
+L: Attribute: WeAlcohol, Threshold: 3.5
+L: Attribute: FamRelQual, Threshold: 2.5
+L: Attribute: MEdu, Threshold: 3.5
+L: 0
+R: 1
+R: 1
+R: Attribute: WdAlcohol, Threshold: 1.5
+L: 1
+R: Attribute: NurserySchool, Threshold: 0.5
+L: 0
+R: 1
+R: Attribute: GoingOut, Threshold: 3.5
+L: Attribute: WeAlcohol, Threshold: 2.5
+L: Attribute: FEdu, Threshold: 0.5
+L: 0
+R: 1
+R: 0
+R: 0
+R: Attribute: Absences, Threshold: 6.5
+L: Attribute: Internet, Threshold: 0.5
+L: 0
+R: Attribute: ParentGuard, Threshold: 0.5
+L: 0
+R: Attribute: GoingOut, Threshold: 4.5
+L: Attribute: FamSupport, Threshold: 0.5
+L: Attribute: Absences, Threshold: 1.0
+L: Attribute: WorkTime, Threshold: 3.5
+L: Attribute: ExtraSupport, Threshold: 0.5
+L: 1
+R: Attribute: WdAlcohol, Threshold: 3.0
+L: Attribute: WeAlcohol, Threshold: 1.5
+L: Attribute: MEdu, Threshold: 2.5
+L: 0
+R: Attribute: Health, Threshold: 2.0
+L: Attribute: FamRelQual, Threshold: 3.0
+L: 1
+R: 0
+R: 1
+R: 0
+R: 1
+R: 1
+R: Attribute: FreeTime, Threshold: 1.5
+L: 0
+R: Attribute: FreeTime, Threshold: 3.5
+L: Attribute: CommuteTime, Threshold: 2.5
+L: Attribute: FEdu, Threshold: 3.5
+L: Attribute: ParentsTogether, Threshold: 0.5
+L: Attribute: Health, Threshold: 3.0
+L: 1
+R: Attribute: Absences, Threshold: 3.0
+L: 1
+R: Attribute: Age, Threshold: 15.5
+L: 0
+R: 0
+R: 0
+R: Attribute: MEdu, Threshold: 3.0
+L: 0
+R: 1
+R: 1
+R: 1
+R: Attribute: Health, Threshold: 4.0
+L: 1
+R: Attribute: WorkTime, Threshold: 1.5
+L: 0
+R: Attribute: FreeTime, Threshold: 3.0
+L: 1
+R: Attribute: FamRelQual, Threshold: 4.0
+L: 1
+R: 0
+R: 1
+R: Attribute: WdAlcohol, Threshold: 4.0
+L: Attribute: Absences, Threshold: 8.5
+L: Attribute: WdAlcohol, Threshold: 2.5
+L: Attribute: Absences, Threshold: 7.5
+L: 0
+R: 0
+R: 0
+R: 0
+R: Attribute: Absences, Threshold: 15.0
+L: 0
+R: 1
+R: 0
+R: 0
+R: Attribute: Age, Threshold: 18.5
+L: Attribute: WdAlcohol, Threshold: 3.5
+L: Attribute: PastFails, Threshold: 1.5
+L: Attribute: Absences, Threshold: 10.0
+L: Attribute: Absences, Threshold: 7.0
+L: Attribute: HigherEd, Threshold: 0.5
+L: 0
+R: Attribute: Absences, Threshold: 4.0
+L: Attribute: GoingOut, Threshold: 1.5
+L: 0
+R: Attribute: MEdu, Threshold: 2.0
+L: 0
+R: 0
+R: Attribute: GoingOut, Threshold: 3.0
+L: 1
+R: Attribute: WeAlcohol, Threshold: 4.5
+L: 0
+R: 1
+R: 1
+R: 0
+R: 0
+R: 1
+R: Attribute: PastFails, Threshold: 2.5
+L: Attribute: WeAlcohol, Threshold: 4.0
+L: Attribute: Absences, Threshold: 14.5
+L: Attribute: Absences, Threshold: 8.0
+L: Attribute: Age, Threshold: 19.5
+L: Attribute: CommuteTime, Threshold: 2.0
+L: Attribute: Absences, Threshold: 1.5
+L: 0
+R: 1
+R: 0
+R: 1
+R: 1
+R: Attribute: Absences, Threshold: 19.0
+L: 0
+R: Attribute: Absences, Threshold: 30.0
+L: 1
+R: Attribute: WorkTime, Threshold: 2.0
+L: 0
+R: 1
+R: 0
+R: 0

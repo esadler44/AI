@@ -1,0 +1,51 @@
+Attribute: Endotoxin, Threshold: 13.425, <=:
+Attribute: K, Threshold: 3.55, >:
+Attribute: GLDH, Threshold: 24.65, <=:
+healthy.
+
+Attribute: Endotoxin, Threshold: 13.425, <=:
+Attribute: K, Threshold: 3.55, >:
+Attribute: GLDH, Threshold: 24.65, <=:
+healthy.
+
+Attribute: Endotoxin, Threshold: 13.425, <=:
+Attribute: K, Threshold: 3.55, >:
+Attribute: GLDH, Threshold: 24.65, <=:
+healthy.
+
+Attribute: Endotoxin, Threshold: 13.425, <=:
+Attribute: K, Threshold: 3.55, >:
+Attribute: GLDH, Threshold: 24.65, <=:
+healthy.
+
+Attribute: Endotoxin, Threshold: 13.425, <=:
+Attribute: K, Threshold: 3.55, >:
+Attribute: GLDH, Threshold: 24.65, <=:
+healthy.
+
+Attribute: Endotoxin, Threshold: 13.425, >:
+colic.
+
+Attribute: Endotoxin, Threshold: 13.425, >:
+colic.
+
+Attribute: Endotoxin, Threshold: 13.425, >:
+colic.
+
+Attribute: Endotoxin, Threshold: 13.425, <=:
+Attribute: K, Threshold: 3.55, <=:
+Attribute: Na, Threshold: 141.5, <=:
+colic.
+
+Attribute: Endotoxin, Threshold: 13.425, >:
+colic.
+
+Attribute: Endotoxin, Threshold: 13.425, >:
+colic.
+
+Attribute: Endotoxin, Threshold: 13.425, >:
+colic.
+
+Attribute: Endotoxin, Threshold: 13.425, >:
+colic.
+
